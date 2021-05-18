@@ -6,9 +6,10 @@ body {
 
 /* *OCULTAR BARRA SCROLL DE LA PAGINA */
 
-::-webkit-scrollbar {
+
+/* ::-webkit-scrollbar {
     display: none;
-}
+} */
 
 
 /********* ANIMACIÓN FADE IN *********/
@@ -39,6 +40,9 @@ body {
 .fadeIn {
     animation-name: fadeIn;
 }
+
+
+/* *NAVBAR */
 
 
 /* *TITULO DE PÁGINA */
@@ -127,6 +131,47 @@ body {
     .contenido-AI p {
         font-size: 1.7rem;
         font-weight: 600;
-        /* margin-top: 5rem; */
     }
+}
+
+
+/* *BANNER FECHAS  */
+
+.banner-fechas {
+    text-align: center;
+    background-color: rgb(11, 59, 11);
+    color: #ffffff;
+    margin-bottom: 4rem;
+}
+
+.banner-fechas .col {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.banner-fechas .col h1 {
+    font-size: 2rem;
+}
+
+.banner-fechas .col p {
+    margin-top: 1rem;
+    font-size: 1.4rem;
+}
+
+
+/* *LISTA */
+
+.menu {
+    display: grid;
+    justify-content: center;
+}
+
+.menu li {
+    text-transform: uppercase;
+    color: grey;
+    font-weight: bold;
+}
+
+.mapa {
+    margin-bottom: 4rem;
 }
