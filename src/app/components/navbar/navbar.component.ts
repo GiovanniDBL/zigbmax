@@ -30,5 +30,17 @@ export class NavbarComponent implements OnInit {
   toAboutUs(){
     document.getElementById('aboutus')?.scrollIntoView({behavior: 'smooth'});
   }
+  toSecurity(){
+    document.getElementById('security')?.scrollIntoView({behavior: 'smooth'});
+  }
+  toSectors(){
+    document.getElementById('sectors')?.scrollIntoView({behavior: 'smooth'});
+  }
+  toContact(){
+    document.getElementById('contact')?.scrollIntoView({behavior: 'smooth'});
+  }
+  toSolutions(){
+    document.getElementById('solutions')?.scrollIntoView({behavior: 'smooth'});
+  }
 
 }

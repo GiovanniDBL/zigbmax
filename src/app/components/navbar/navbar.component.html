@@ -1,4 +1,5 @@
-<nav class="navbar header-navbar scrolling-navbar navbar-expand-lg navbar-dark fixed-top" [class.header_change]="header_variable">
+<nav class="navbar header-navbar scrolling-navbar navbar-expand-lg navbar-dark sticky-top">
+    <!-- [class.header_change]="header_variable" -->
     <div class="container-fluid">
         <!-- <a class="navbar-brand" href="#">
             <img src="assets/img/logo.webp" alt="" width="200" height="100">
@@ -13,19 +14,19 @@
                     <a class="nav-link active" routerLink='inicio'>Home</a>
                 </li>
                 <li class="nav-item" (click)="toAboutUs()">
-                    <a class="nav-link active">About us</a>
+                    <a class="nav-link active" routerLink='inicio'>About us</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link active" routerLink='security' href="#">Security</a>
+                <li class="nav-item" (click)="toSecurity()">
+                    <a class="nav-link active" routerLink='inicio'>Security</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link active" routerLink='solutions' href="#">Solutions</a>
+                <li class="nav-item" (click)="toSolutions()">
+                    <a class="nav-link active" routerLink='solutions'>Solutions</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link active" routerLink='sectors' href="#">Sectors</a>
+                <li class="nav-item" (click)="toSectors()">
+                    <a class="nav-link active" routerLink='inicio'>Sectors</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link active" routerLink='contact' href="#">Contact</a>
+                <li class="nav-item" (click)="toContact()">
+                    <a class="nav-link active" routerLink='inicio'>Contact</a>
                 </li>
 
 
