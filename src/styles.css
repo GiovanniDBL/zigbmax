@@ -45,6 +45,22 @@ body {
 /* *NAVBAR */
 
 
+/* .navbar {
+    background-color: rgb(128, 41, 0);
+} */
+
+.header_change {
+    /* background-color: rgba(0, 0, 0, .9) !important; */
+    transition: all .7s ease-in-out;
+    background-color: green;
+}
+
+.navbar-nav a:hover {
+    cursor: pointer;
+    background-color: #f9f9fa33;
+}
+
+
 /* *TITULO DE PÁGINA */
 
 .titulo-home h1 {
