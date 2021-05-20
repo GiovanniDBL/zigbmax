@@ -22,8 +22,10 @@
     "bootstrap": "^5.0.1",
     "jquery": "^3.6.0",
     "jquery.js": "0.0.2-security",
+    "ngx-scrollreveal": "^3.0.0",
     "popper.js": "^1.16.1",
     "rxjs": "~6.6.0",
+    "scrollreveal": "^4.0.9",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.2"
   },
