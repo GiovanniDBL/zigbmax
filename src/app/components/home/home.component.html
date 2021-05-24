@@ -5,7 +5,7 @@
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <!-- <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button> -->
         </div>
         <div class="carousel-inner">
             <div class="carousel-item  active   video ">
@@ -15,13 +15,13 @@
 
                 </div>
             </div>
-            <div class="carousel-item  video ">
+            <!-- <div class="carousel-item  video ">
                 <video src="assets/videos/video2.mp4" class="d-block" [muted]="'muted'" autoplay loop></video>
                 <div class="carousel-caption carousel-caption-inicio header-imagen-fondos  d-md-block">
                     <h5>seguridad </h5>
 
                 </div>
-            </div>
+            </div> -->
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -38,16 +38,16 @@
 
 <!-- *ARTIFICIAL INTELIGENCE -->
 <section class="contenido-sections Ai" [ngsReveal]="{reset:true, duration:2000, origin:'left', distance:'400px'}">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
-            <div class="col">
+            <div class="col" [ngsRevealSet]="{ reset:true,duration:2000}" [ngsInterval]="50" [ngsSelector]="'.item'">
                 <h1>Today's security with tomorrow's technology</h1>
                 <hr class="separadorr">
                 <img src="assets/img/Ai.webp" alt="">
             </div>
 
-            <div class="col">
-                <h2>Artificial Intelligence</h2>
+            <div class="col ">
+                <h2>Artificial <br> Intelligence</h2>
                 <p>Every one of our Security Solutions are built on Next-Gen AI. It's core is precisely built on Artificial Inteligence with capabilities never before seen.
                 </p>
             </div>
@@ -57,16 +57,16 @@
 
 
 <!-- *GLOBAL SOLUTIONS -->
-<section class="contenido-sections Global-Solutions" [ngsReveal]="{reset:true, duration:2000}">
-    <div class="container">
+<section class="contenido-sections Global-Solutions " [ngsReveal]="{reset:true, duration:2000, origin:'left', distance:'400px'}">
+    <div class="container-fluid">
         <div class="row">
-            <div class="col">
+            <div class="col ">
                 <h1>Global solutions</h1>
                 <hr class="separadorr">
                 <p>We have a profound understanding & expertise central to avoid commiting fraud with Automater Taller Machines.
                 </p>
             </div>
-            <div class="col">
+            <div class="col ">
 
                 <img src="assets/img/global-solutions.webp" alt="">
             </div>
@@ -77,9 +77,9 @@
 </section>
 
 <!-- *ATM SECURITY -->
-<section class="contenido-sections Atm-security " [ngsReveal]="{reset:true, duration:2000, origin:'left', distance:'400px'}">
-    <div class="container">
-        <div class="row">
+<section class="contenido-sections Atm-security" [ngsReveal]="{reset:true, duration:2000, origin:'left', distance:'400px'}">
+    <div class="container-fluid">
+        <div class="row ">
             <div class="col">
 
                 <img src="assets/img/atm-security.webp" alt="">
@@ -96,21 +96,24 @@
 </section>
 
 <!-- *SECTORES -->
-<section id="sectors" class="contenido-sections Sectores" [ngsReveal]="{reset:true, duration:2000, origin:'left', distance:'400px'}">
-    <h1 [ngsReveal]="{reset:true, duration:2000, origin:'top', distance:'400px'}">sectors we operate in</h1>
-    <div class="container">
+<section id="sectors" class="contenido-sections Sectores " [ngsReveal]="{reset:true, duration:2000, origin:'left', distance:'400px'}">
+    <div class="container-fluid">
         <div class="row">
+            <div>
 
+                <h1>sectors we <br> operate in</h1>
+                <hr class="separadorr">
+            </div>
 
-            <div class="col">
+            <div class="col ">
                 <p>Financial</p>
                 <img src="assets/img/financial.webp" alt="">
             </div>
-            <div class="col">
+            <div class="col ">
                 <p>Residential</p>
                 <img src="assets/img/residential.webp" alt="">
             </div>
-            <div class="col">
+            <div class="col ">
                 <p>Commercial</p>
                 <img src="assets/img/commercial.webp" alt="">
             </div>
@@ -121,46 +124,52 @@
 
 
 <!-- *ZIGBMAX QUIENES SOMOS -->
-<section id="aboutus" class="contenido-sections AboutUs">
-    <div class="container">
+<section id="aboutus" class="contenido-sections AboutUs fondo-gris" [ngsReveal]="{reset:true, duration:2000, origin:'left', distance:'400px'}">
+    <div class="container-fluid">
         <div class="row">
+
             <div class="col">
                 <img src="assets/img/logo.webp" alt="">
+                <hr class="separadorr">
                 <p>We are an Innovating Company with a profound expertise in the Security Sector. We research and develop Security solutions at all levels wether it's Financial, Commercial or the Residential Sector. We have over 30 years of Experience in
                     the Research and Development of Security Solutions. We know the market, we listen to the problems and we create the solutions for the next generation in Security. The Future is here, The Future is ZigbMax.
                 </p>
                 <img src="assets/img/reunion.webp" alt="">
             </div>
+            <!-- <div class="col">
+
+                <p>We are an Innovating Company with a profound expertise in the Security Sector. We research and develop Security solutions at all levels wether it's Financial, Commercial or the Residential Sector. We have over 30 years of Experience in
+                    the Research and Development of Security Solutions. We know the market, we listen to the problems and we create the solutions for the next generation in Security. The Future is here, The Future is ZigbMax.
+                </p>
+            </div> -->
         </div>
     </div>
 </section>
 
-<!-- *FECHAS EXPERIENCIA FONDO VERDE -->
 
-<div class="container-fluid banner-fechas">
-    <div class="row row-cols-2">
-        <div class="col">
-            <h1>2019</h1>
-            <p>Year Established</p>
-        </div>
-        <div class="col">
-            <h1>35+</h1>
-            <p>Years of combined Experience</p>
-        </div>
-        <div class="col">
-            <h1>7</h1>
-            <p>Current Projects</p>
-        </div>
-        <div class="col">
-            <h1>2020</h1>
-            <p>Expected Release</p>
-        </div>
+
+
+
+<!-- *FECHAS EXPERIENCIA  -->
+
+<div class="contador parallax">
+    <div class="container">
+        <ul class="resumen-evento clearfix">
+            <li>
+                <p class="numero">2019</p>Year Established</li>
+            <li>
+                <p class="numero">35+</p>Years of combined Experience</li>
+            <li>
+                <p class="numero">7</p>Current Projects</li>
+            <li>
+                <p class="numero">2020</p>Expected Release</li>
+        </ul>
     </div>
 </div>
 
 <!-- *EL FUTURO DE ATM SECURITY -->
-<section class="contenido-sections future-Atmsecurity">
-    <div class="container">
+<section class="contenido-sections future-Atmsecurity " [ngsReveal]="{reset:true, duration:2000}">
+    <div class="container-fluid">
         <div class="row">
             <div class="col">
                 <h1>The future of atm security is here today</h1>
@@ -176,8 +185,8 @@
 </section>
 
 <!-- *SECURITY SOLUTIONS -->
-<section id="security" class="contenido-sections Security-solutions">
-    <div class="container">
+<section id="security" class="contenido-sections Security-solutions ">
+    <div class="container-fluid">
         <div class="row">
             <div class="col">
                 <h1>Security solutions for atms</h1>
@@ -198,38 +207,31 @@
                     </ul>
                 </div>
 
+            </div>
+            <div class="col" [ngsReveal]="{reset:true, duration:2000}">
                 <img src="assets/img/cajeroatm.webp" alt="">
-
-                <div class="row mapa">
-                    <iframe class="responsive-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19933.301532351026!2d-82.78655246384491!3d27.971150750406643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c2f10251970cd5%3A0x2031decc127aa31e!2s1200%20Eldridge%20St%2C%20Clearwater%2C%20FL%2033755%2C%20EE.%20UU.!5e0!3m2!1ses-419!2smx!4v1621358511643!5m2!1ses-419!2smx"
-                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                </div>
-
-
             </div>
         </div>
     </div>
 </section>
 
+<div class="container mapa">
+    <h1>CONTACT</h1>
+    <hr class="separadorr">
+    <div class="row ">
 
+        <iframe class="responsive-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19933.301532351026!2d-82.78655246384491!3d27.971150750406643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c2f10251970cd5%3A0x2031decc127aa31e!2s1200%20Eldridge%20St%2C%20Clearwater%2C%20FL%2033755%2C%20EE.%20UU.!5e0!3m2!1ses-419!2smx!4v1621358511643!5m2!1ses-419!2smx"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+</div>
 
 
 
 <!-- *FORMULARIO -->
-<section id="contact" class="contenido-sections Formulario">
+<section id="contact" class="contenido-sections Formulario fondo-gris" [ngsReveal]="{reset:true, duration:2000, origin:'left', distance:'400px'}">
     <div class="container">
         <div class="row">
-            <div class="col">
-                <h1>inquiries</h1>
-                <hr class="separadorr">
-                <h2>corporate office</h2>
 
-                <p>21 Pinewood Ave Clearwater, FL 33765</p>
-                <p>Tel: (321) 423-9271 <br> (727) 623-3463</p>
-                <img src="assets/img/logo.webp" alt="">
-
-
-            </div>
             <div class="col">
                 <h1>for more information</h1>
                 <h2>please fill out bellow</h2>
@@ -261,12 +263,23 @@
                             </form>
                         </div>
                         <div class="modal-footer d-flex justify-content-center">
-                            <button type="button" class="btn btn-primary">Send message</button>
+                            <button type="button" class="btn btn-primary btn-lg">Send Message</button>
                         </div>
                     </div>
                 </div>
 
             </div>
+            <!-- <div class="col">
+                <h1>inquiries</h1>
+                <hr class="separadorr">
+                <h2>corporate office</h2>
+
+                <p>21 Pinewood Ave Clearwater, FL 33765</p>
+                <p>Tel: (321) 423-9271 <br> (727) 623-3463</p>
+                <img src="assets/img/logo.webp" alt="">
+
+
+            </div> -->
         </div>
     </div>
 </section>

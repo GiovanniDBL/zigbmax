@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'zigbmax';
+
+
+  fecha: Date = new Date();
 }
