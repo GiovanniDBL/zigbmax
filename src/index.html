@@ -9,11 +9,56 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 
 <body>
     <app-root></app-root>
+
+    <script>
+        addEventListener('DOMContentLoaded', () => {
+            const contadores = document.querySelectorAll('.contador_cantidad');
+            const velocidad = 1000;
+
+            const animarContadores = () => {
+                for (const contador of contadores) {
+                    const actualizar_contador = () => {
+                        let cantidad_maxima = +contador.dataset.cantidadTotal,
+                            valor_actual = +contador.innerText,
+                            incremento = cantidad_maxima / velocidad
+
+                        if (valor_actual < cantidad_maxima) {
+                            contador.innerText = Math.ceil(valor_actual + incremento)
+                            setTimeout(actualizar_contador, 5)
+                        } else {
+                            contador.innerText = cantidad_maxima
+                        }
+                    }
+                    actualizar_contador()
+                }
+            }
+
+            const mostrarContadores = elementos => {
+                elementos.forEach(elemento => {
+                    if (elemento.isIntersecting) {
+                        elemento.target.classList.add('animar')
+                        elemento.target.classList.remove('ocultar')
+                        setTimeout(animarContadores, 300)
+                    }
+                });
+            }
+
+            const observer = new IntersectionObserver(mostrarContadores, {
+                threshold: 0.75 // 0 - 1
+            })
+
+            const elementosHTML = document.querySelectorAll('.contador')
+            elementosHTML.forEach(elementoHTML => {
+                observer.observe(elementoHTML)
+            })
+        })
+    </script>
 </body>
 
 </html>

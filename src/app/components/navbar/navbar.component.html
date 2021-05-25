@@ -1,4 +1,4 @@
-<header [ngsRevealSet]="{ reset:true, duration:2000, origin:'top', distance:'200px'}" [ngsSelector]="'.navbar'">
+<header>
     <nav class="navbar header-navbar scrolling-navbar navbar-expand-lg navbar-dark  fixed-top" [class.header_change]="header_variable">
         <!-- [class.header_change]="header_variable" -->
         <!-- [ngsRevealSet]="{ reset:true, duration:2000, origin:'top', distance:'100px'}" [ngsSelector]="'.navbar'" -->
@@ -30,10 +30,7 @@
                     <li class="nav-item" (click)="toContact()">
                         <a class="nav-link active" routerLink='inicio'>Contact</a>
                     </li>
-
-
                 </ul>
-
             </div>
         </div>
     </nav>

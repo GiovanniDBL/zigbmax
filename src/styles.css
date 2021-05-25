@@ -609,6 +609,30 @@ h2 {
 }
 
 
+/*TODO SLIDER AUTOMATICO */
+
+.contenedor {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 11rem;
+}
+
+.sliderauto {
+    width: 2000px;
+    height: 200px;
+    background-image: url(assets/img/slider2.png);
+    background-size: 100% 100%;
+    animation: slider 18s infinite linear;
+}
+
+@keyframes slider {
+    to {
+        background-position: 2000px;
+    }
+}
+
+
 /* *SECTION SOLUTIONS */
 
 .contenido-Solutions {
@@ -861,3 +885,35 @@ video {
         overflow: hidden;
     }
 }
+
+
+/* .contador {
+    width: 24.7%;
+    text-align: center;
+    display: inline-block;
+}
+
+.contador_cantidad {
+    font-size: 30px;
+    margin: 10px 0;
+    font-weight: 900;
+}
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.ocultar {
+    opacity: 0;
+}
+
+.animar {
+    animation: aparecer 1.3s;
+} */
