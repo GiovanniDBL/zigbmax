@@ -911,9 +911,15 @@ video {
 }
 
 .ocultar {
-    opacity: 0;
+    opacity: 100;
 }
 
 .animar {
     animation: aparecer 1.3s;
 } */
+
+.counter {
+    /* font-size: 25px;
+    font-weight: bold;
+    text-align: center; */
+}
