@@ -12,6 +12,8 @@ import { ContactComponent } from './components/contact/contact.component';
 import { SecuriityComponent } from './components/securiity/securiity.component';
 import { APP_ROUTING } from './routes';
 import { NgsRevealModule } from 'ngx-scrollreveal';
+import { NoticiasComponent } from './components/noticias/noticias.component';
+import { SeguridadComponent } from './components/solutions/seguridad/seguridad.component';
 
 
 
@@ -24,7 +26,9 @@ import { NgsRevealModule } from 'ngx-scrollreveal';
     SolutionsComponent,
     SectorsComponent,
     ContactComponent,
-    SecuriityComponent
+    SecuriityComponent,
+    NoticiasComponent,
+    SeguridadComponent
   ],
   imports: [
     BrowserModule,

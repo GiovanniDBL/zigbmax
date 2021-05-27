@@ -13,22 +13,105 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item" (click)="toInicio()">
-                        <a class="nav-link active" routerLink='inicio'>Home</a>
+                        <a class="nav-link active" routerLink='inicio'>Inicio</a>
+                    </li>
+
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Soluciones
+                        </a>
+
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+
+                            <!-- TODO Sensores LPWAN para seguridad -->
+                            <li class="dropdown-submenu dropstart">
+                                <a href="#" class="dropdown-item dropdown-toggle" href="#">Sensores LPWAN para seguridad</a>
+                                <ul class="dropdown-menu">
+
+                                    <li><a class="dropdown-item" href="#">AMTsense Sigfox</a></li>
+                                    <li><a class="dropdown-item" href="#">ATMsense Slave </a></li>
+                                    <li><a class="dropdown-item" href="#">VAULTsense Sigfox</a></li>
+                                    <li><a class="dropdown-item" href="#">DROPsafe Sigfox</a></li>
+                                </ul>
+                            </li>
+                            <!-- TODO Sensores LPWAN para cadena frio -->
+                            <li class="dropdown-submenu dropstart">
+                                <a href="#" class="dropdown-item dropdown-toggle" href="#">Sensores LPWAN para cadena frio</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">TEMPsense I Sigbfox</a></li>
+                                </ul>
+                            </li>
+                            <!-- TODO Sensores Para mantenimiento predictivo -->
+                            <li class="dropdown-submenu dropstart">
+                                <a href="#" class="dropdown-item dropdown-toggle" href="#">Sensores Para mantenimiento predictivo</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Sensor para motores de inducción corriente alterna</a></li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Sensor para Bombas de Agua y Aguas residuales</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Sensor para Bandas de Rondamientos</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <!-- TODO Sensores Para el Monitoreo de Infraestructoras -->
+                            <li class="dropdown-submenu dropstart">
+                                <a href="#" class="dropdown-item dropdown-toggle" href="#">Sensores Para el Monitoreo de Infraestructoras</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Monitores de estructuras de concreto</a></li>
+                                    <li><a class="dropdown-item" href="#">Monitores de estructuras metálicas</a></li>
+                                    <li><a class="dropdown-item" href="#">Monitores de puentes viales</a></li>
+                                </ul>
+                            </li>
+
+
+                            <!-- <li class="dropdown-submenu dropstart">
+                                <a href="#" class="dropdown-item dropdown-toggle" href="#"> submenu</a>
+                                <ul class="dropdown-menu ">
+                                    <li><a class="dropdown-item" href="#">submenu 0</a></li>
+                                    <li><a class="dropdown-item" href="#">submenu 1</a></li>
+                                    <li class="dropdown-submenu">
+                                        <a class="dropdown-item dropdown-toggle" href="#">submenu 2</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">submenu 2.1</a></li>
+                                            <li><a class="dropdown-item" href="#">submenu 2.2</a></li>
+                                            <li><a class="dropdown-item" href="#">submenu 2.3</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown-submenu">
+                                        <a class="dropdown-item dropdown-toggle" href="#">submenu 3</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">submenu 3.1</a></li>
+                                            <li><a class="dropdown-item" href="#">submenu 3.2</a></li>
+                                            <li><a class="dropdown-item" href="#">submenu 3.3</a></li>
+                                        </ul>
+                                    </li>
+
+                                </ul>
+                            </li> -->
+
+                        </ul>
+
                     </li>
                     <li class="nav-item" (click)="toAboutUs()">
-                        <a class="nav-link active" routerLink='inicio'>About us</a>
+                        <a class="nav-link active" routerLink='inicio'>Nosotros</a>
                     </li>
                     <li class="nav-item" (click)="toSecurity()">
-                        <a class="nav-link active" routerLink='inicio'>Security</a>
+                        <a class="nav-link active" routerLink='inicio'>Seguridad</a>
                     </li>
-                    <li class="nav-item" (click)="toSolutions()">
+                    <!-- <li class="nav-item" (click)="toSolutions()">
                         <a class="nav-link active" routerLink='solutions'>Solutions</a>
+                    </li> -->
+
+                    <li class="nav-item" (click)="toSectors()">
+                        <a class="nav-link active" routerLink='inicio'>Sectores</a>
                     </li>
                     <li class="nav-item" (click)="toSectors()">
-                        <a class="nav-link active" routerLink='inicio'>Sectors</a>
+                        <a class="nav-link active" routerLink='noticias'>Noticias</a>
                     </li>
                     <li class="nav-item" (click)="toContact()">
-                        <a class="nav-link active" routerLink='inicio'>Contact</a>
+                        <a class="nav-link active" routerLink='inicio'>Contacto</a>
                     </li>
                 </ul>
             </div>
