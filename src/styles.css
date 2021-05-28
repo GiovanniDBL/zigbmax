@@ -1,7 +1,7 @@
 body {
     /** TIPO DE LETRA */
     font-family: 'Roboto', sans-serif !important;
-    background-color: #fff !important;
+    /* background-color: #fff !important; */
 }
 
 
@@ -65,7 +65,7 @@ body {
 .header_change {
     /* background-color: rgba(0, 0, 0, .9) !important; */
     transition: all .7s ease-in-out;
-    background-color: #196f3d;
+    background-color: #56af5a;
 }
 
 .navbar-nav a:hover {
@@ -139,12 +139,20 @@ body {
     }
 }
 
-.titulo-home {
+.titulo-home h1 {
     text-align: center;
     margin-top: 11rem;
+    margin-bottom: 4rem;
     text-transform: uppercase;
-    color: black;
-    font-size: 3rem;
+    color: #41516A;
+    /* color: #57bd5c; */
+    /* font-size: 3rem; */
+    /* background-color: #f8f9fa; */
+    /* background: linear-gradient(to right, #57bd5c, #38ef7d); */
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: .5px;
 }
 
 
@@ -167,7 +175,7 @@ body {
 div.contador {
     position: relative;
     height: auto;
-    margin-top: 6rem;
+    /* margin-top: 6rem; */
 }
 
 div.contador::before {
@@ -255,7 +263,8 @@ ul.resumen-evento {
 
 /* *LISTA */
 
-.menu {
+
+/* .menu {
     display: grid;
     justify-content: center;
 }
@@ -264,7 +273,7 @@ ul.resumen-evento {
     text-transform: uppercase;
     color: #196f3d;
     font-weight: bold;
-}
+} */
 
 .mapa {
     margin-top: 7rem !important;
@@ -278,14 +287,14 @@ ul.resumen-evento {
 }
 
 @media(min-width:768px) {
-    .menu li {
+    /* .menu li {
         text-transform: uppercase;
         font-weight: bold;
         font-size: 1.3rem;
-    }
+    } */
     .mapa {
-        margin-top: 11rem !important;
-        margin-bottom: 2rem !important;
+        margin-top: 8rem !important;
+        /* margin-bottom: 2rem !important; */
     }
     .mapa h1 {
         font-size: 2.5rem;
@@ -293,12 +302,12 @@ ul.resumen-evento {
 }
 
 @media only screen and (min-width: 1400px) {
-    .menu li {
+    /* .menu li {
         text-transform: uppercase;
         color: grey;
         font-weight: bold;
         font-size: 1.7rem;
-    }
+    } */
     .mapa h1 {
         font-size: 2.7rem;
     }
@@ -541,7 +550,7 @@ h2 {
 /* *FOOTER */
 
 .footer {
-    background: linear-gradient(to right, #196f3de8, #196f3dec);
+    background: linear-gradient(to right, #1bd687, #1fa47c);
     padding-bottom: 3rem;
     margin-top: 4rem;
     text-align: center;
@@ -565,7 +574,7 @@ h2 {
 }
 
 .derechos-reservados {
-    background-color: #196f3d;
+    background-color: #1fa47c;
     padding-bottom: 1rem;
     height: 60px;
 }
@@ -693,94 +702,166 @@ video {
     background-color: #fff !important;
 }
 
+.card2 {
+    margin-top: 1rem;
+}
+
 
 /* TODO CARD INICIAL CARD GROUP DE 3  */
 
 .card-3sections {
-    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.1);
-    margin-top: 6rem;
+    margin-top: 1rem;
 }
 
 .card-3sections h5 {
-    font-size: 2rem;
-    color: #093152;
-    text-align: center;
+    font-size: 1.80rem;
     text-transform: uppercase;
-    font-weight: bold;
+    /* color: #41516A; */
+    text-align: center;
+    line-height: 1.2;
+    letter-spacing: .5px;
 }
 
 .card-3sections p {
-    font-size: 1.3rem;
-    text-align: center;
-    color: black;
-}
-
-.card-3sections img {
-    /* border-radius: 7% !important; */
-    padding: 2px;
+    font-size: 20px;
 }
 
 
 /* TODO CARD SECTORES */
 
 .card-sectors {
-    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.1);
-    margin-top: 6rem;
+    /* box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.1); */
+    margin-top: 3rem;
+    background-color: #f8f8f8;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.card-sectors .card-body {
+    /* box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.1); */
+    /* margin-top: 6rem; */
+    background-color: #f8f8f8;
+}
+
+.card-sectors h1 {
+    text-align: center;
+    /* margin-top: 11rem; */
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    color: #41516A;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: .5px;
 }
 
 .card-sectors h5 {
-    font-size: 2rem;
-    color: #093152;
-    text-align: center;
+    font-size: 1.80rem;
     text-transform: uppercase;
-    font-weight: bold;
-}
-
-.card-sectors p {
-    font-size: 1.3rem;
+    font-weight: 800;
     text-align: center;
-    color: black;
+    line-height: 1.2;
+    letter-spacing: .5px;
 }
 
 
 /* TODO CARD ABOUT US */
 
 .card-nosotros {
-    margin-top: 11rem;
-    box-shadow: 5px 5px 20px 7px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 5px 5px 20px 7px rgba(0, 0, 0, 0.2); */
+    box-shadow: 5px 5px 20px 10px rgba(0, 0, 0, 0.1);
+    padding-top: 7rem;
+    padding-bottom: 7rem;
 }
 
 .card-nosotros img {
-    width: 50%;
+    width: 90%;
     display: block;
     margin: 0 auto;
 }
 
-.card-nosotros p {
-    font-size: 1.6rem;
+.card-nosotros h5 {
+    font-size: 1.80rem;
+    text-transform: uppercase;
+    color: #41516A;
+    font-weight: 800;
     text-align: center;
-    color: #093152;
-    font-weight: bold;
+    line-height: 1.2;
+    letter-spacing: .5px;
+}
+
+.card-nosotros p {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.list-group-item {
+    border: 0 !important;
+    /* text-align: center !important; */
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.fondo-tabla {
+    background-color: #ffffff !important;
+}
+
+
+/* TODO SOLUTIONS FOR ATMS */
+
+.menu li {
+    font-size: 18px !important;
+    list-style: circle;
+    text-transform: capitalize;
+}
+
+.card-solutionsforatms {
+    /* background-color: #f8f8f8; */
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.card-solutionsforatms h5 {
+    font-size: 1.80rem;
+    text-transform: uppercase;
+    color: #41516A;
+    font-weight: 800;
+    text-align: center;
+    line-height: 1.2;
+    letter-spacing: .5px;
+}
+
+.card-solutionsforatms p {
+    font-size: 20px;
 }
 
 
 /* TODO CARD FUTURE ATM */
 
 .card-futureatm {
-    margin-top: 11rem;
-    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.1);
+    background-color: #f8f8f8;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card-futureatm .card {
+    background-color: #f8f8f8 !important;
 }
 
 .card-futureatm h5 {
-    font-size: 2rem;
-    color: #093152;
-    text-align: center;
+    font-size: 1.80rem;
     text-transform: uppercase;
-    font-weight: bold;
+    color: #41516A;
+    font-weight: 800;
+    text-align: center;
+    line-height: 1.2;
+    letter-spacing: .5px;
 }
 
 .card-futureatm p {
-    font-size: 1.5rem;
+    font-size: 20px;
     text-align: center;
     color: black;
 }
