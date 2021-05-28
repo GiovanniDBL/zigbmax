@@ -8,12 +8,31 @@
             <!-- <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button> -->
         </div>
         <div class="carousel-inner">
-            <div class="carousel-item  active   video ">
+            <div class="carousel-item Texto-Efecto active   video ">
                 <video src="assets/videos/video2.mp4" class="d-block" [muted]="'muted'" autoplay loop></video>
-                <div class="carousel-caption carousel-caption-inicio header-imagen-fondos  d-md-block">
+
+
+                <div class="blink_me1 texto-syle">LPWAN</div>
+                <div class="blink_me2 texto-syle">REDES 0G</div>
+                <div class="blink_me3 texto-syle">RED 0G</div>
+                <div class="blink_me4 texto-syle">SigFox</div>
+                <div class="blink_me5 texto-syle">ZigbMax Technology</div>
+                <div class="blink_me6 texto-syle">Protección para ATMs</div>
+                <div class="blink_me7 texto-syle">RED 0G</div>
+                <div class="blink_me8 texto-syle">LORAWAN</div>
+                <div class="blink_me9 texto-syle">MONITOREO CRITICO</div>
+                <div class="blink_me10 texto-syle">SENSORES INTELIGENTES</div>
+                <div class="blink_me11 texto-syle">PROTECCIÓN DE BÓVEDAS</div>
+                <div class="blink_me12 texto-syle">RED 0G</div>
+                <div class="blink_me13 texto-syle">TE-CAT1 NBIoT</div>
+
+
+
+                <!-- <div class="carousel-caption carousel-caption-inicio header-imagen-fondos  d-md-block">
                     <h5>Security Experts Specializing In <br> ATM Security</h5>
 
-                </div>
+
+                </div> -->
             </div>
         </div>
         <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
@@ -53,7 +72,7 @@
 </section> -->
 
 
-<div class="container titulo-home">
+<div class="container titulo-home" [ngsRevealSet]="{  reset:true, duration:2000, origin:'top', distance:'300px'}" [ngsSelector]="'.titulo-home'">
     <h1>Today's security with tomorrow's technology</h1>
 
 </div>
@@ -61,7 +80,7 @@
 
 
 
-<div class="card container mb-3  card-3sections" style="max-width: 800px;">
+<div class="card card-transition container mb-3  card-3sections" style="max-width: 800px;" [ngsRevealSet]="{  reset:true, duration:2000, origin:'top', distance:'300px'}" [ngsSelector]="'.card-transition'">
     <div class="row no-gutters">
         <div class="col-md-4">
             <img src="assets/img/Ai.webp" class="img-fluid" alt="...">
@@ -75,7 +94,7 @@
         </div>
     </div>
 </div>
-<div class="card container mb-3 card-3sections" style="max-width: 800px;">
+<div class="card card-transition container mb-3 card-3sections" style="max-width: 800px;">
     <div class="row no-gutters">
         <div class="col-md-8">
             <div class="card-body">
@@ -90,7 +109,7 @@
 
     </div>
 </div>
-<div class="card container mb-3 card-3sections " style="max-width: 800px;">
+<div class="card card-transition container mb-3 card-3sections " style="max-width: 800px;">
     <div class="row no-gutters">
         <div class="col-md-4">
             <img src="assets/img/atm-security.webp" class="card-img" alt="...">
@@ -175,7 +194,7 @@
 
 <!-- TODO CARD SECTORES -->
 
-<div id="sectors" class="card-sectors">
+<div id="sectors" class="card-sectors card-transition">
     <div class="container  ">
         <h1>sectors we operate in</h1>
 
@@ -251,7 +270,7 @@
 </div> -->
 
 
-<div id="aboutus" class="card-nosotros">
+<div id="aboutus" class="card-nosotros card-transition">
 
     <div class="container  ">
         <div class="row">
@@ -351,12 +370,12 @@
 
 
 
-<div id="security" class="card-solutionsforatms">
+<div id="security" class="card-solutionsforatms" [ngsRevealSet]="{  reset:true, duration:2000, origin:'top', distance:'300px'}" [ngsSelector]="'.card-solutionsforatms'">
 
     <div class="container">
         <div class="row">
             <div class="col-sm-6">
-                <div class="card">
+                <div class="card ">
                     <div class="card-body">
                         <h5 class="card-title">Security solutions for atms</h5>
                         <!-- <div class="menu">
@@ -408,7 +427,7 @@
 <!-- TODO FUTURO DE ARM SECURITY CARD -->
 <div class="card-futureatm">
 
-    <div class="card container " style="width: 50%;">
+    <div class="card container card-transition" style="width: 50%;">
         <div class="card-body">
             <h5 class="card-title">The future of atm security is here today</h5>
             <p class="card-text">Our expertise in atm security has allowed innovation and never before seen technology to elevate your atm security to the next level. We specialize in all levels of external & internal machines for the financial sector. The transmission of
@@ -465,7 +484,7 @@
 
 
 <!-- *FORMULARIO -->
-<section id="contact" class="contenido-sections Formulario ">
+<section id="contact" class="contenido-sections Formulario card-transition ">
     <div class="container">
         <div class="row">
 
@@ -500,7 +519,7 @@
                             </form>
                         </div>
                         <div class="modal-footer d-flex justify-content-center">
-                            <button type="button" class="btn btn-primary btn-lg">Send Message</button>
+                            <button type="button" class="btn  btn-lg">Send Message</button>
                         </div>
                     </div>
                 </div>

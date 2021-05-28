@@ -1,1 +1,102 @@
-<p>noticias works!</p>
+<section class="animated fadeIn" id="noticias">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+        <div class="carousel-indicators">
+            <!-- <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button> -->
+            <!-- <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button> -->
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item Texto-Efecto active   video ">
+                <video src="assets/videos/noticias-video.mp4" class="d-block" [muted]="'muted'" autoplay loop></video>
+
+
+
+
+
+                <div class="carousel-caption carousel-caption-inicio header-imagen-fondos  d-md-block" [ngsRevealSet]="{  reset:true, duration:2000, origin:'top', distance:'300px'}" [ngsSelector]="'.carousel-caption'">
+                    <h5>Noticias</h5>
+
+
+                </div>
+            </div>
+        </div>
+        <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button> -->
+    </div>
+</section>
+<div class="container card-videos">
+
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <video width="320" height="240" controls>
+                      <source src="https://dms.licdn.com/playlist/C5605AQG_HiLp4WMIJg/mp4-640p-30fp-crf28/0/1620095739246?e=1622307600&v=beta&t=BlOwZ4Ucz2uhsLhQDYLzrSyxnE-JMoQpDv4fcvz8_V0" type="video/mp4">
+                      
+                  
+                    </video>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title" [ngsRevealSet]="{ reset:true, duration:2000}" [ngsSelector]="'.card'">¿Qué hice en tiempo de pandemia?</h5>
+                    <p class="card-text">2019 estaba escribiendo el libro “Crónica de una muerte anunciada de las centrales de Monitoreo” pero perdí la concentración totalmente y no pude continuar con el libro, pero las grandes tragedias nos obligan a ser mas creativos para
+                        resolver los grandes problemas, a mi medio por desarrollar una nueva tecnología de sensores inteligente, para resolver algunos problemas del sector financiero, Industrial y alimenticio.</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <video width="320" height="240" controls>
+                      <source src="https://scontent.cdninstagram.com/v/t50.2886-16/10000000_214039410274094_2069871626619875025_n.mp4?efg=eyJ2ZW5jb2RlX3RhZyI6InZ0c192b2RfdXJsZ2VuLjUwNC5pZ3R2LmRlZmF1bHQiLCJxZV9ncm91cHMiOiJbXCJpZ193ZWJfZGVsaXZlcnlfdnRzX290ZlwiXSJ9&_nc_ht=instagram.fcjs3-1.fna.fbcdn.net&_nc_cat=102&_nc_ohc=5aWBhFvjXIIAX_yZPxw&edm=ADECaisBAAAA&vs=18222501598006788_2936163450&_nc_vs=HBksFQAYJEdJQ1dtQUF1YndUdnFzSUFBTkZ1Vmh0SHFia2NicUNCQUFBRhUAAsgBABUAGCRHSUNXbUFCeUxoblJVWFlBQUxZcWljZDd0cXdXYnFDQkFBQUYVAgLIAQAoABgAGwGIB3VzZV9vaWwBMRUAACaIy%2FGomNHeQBUCKAJDMywXQK%2F8OVgQYk4YEmRhc2hfYmFzZWxpbmVfMl92MREAdewHAA%3D%3D&_nc_rid=e523e3b3fe&ccb=7-4&oe=60B35C5F&oh=e7e9032f79171c9114ee2f270de9262b&_nc_sid=ca78b6" type="video/mp4">
+                      
+                  
+                    </video>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Entrevista Ing. José Palacios.</h5>
+                    <p class="card-text">Especialista Eléctrica, Electrónica y Comunicaciones. Desarrollador de Tecnología. Quién nos habló de " Beneficios del IOT para las Soluciones de Seguridad". ✓La importancia de las Redes LPWAN en las comunicaciones ✓ Redes LPWAN y
+                        sus aplicaciones en proyectos de Redes y VideoVigilancia.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <video width="320" height="240" controls>
+                      <source src="https://scontent.fcjs3-1.fna.fbcdn.net/v/t66.36281-6/10000000_513055229727569_7278915658025673926_n.mp4?_nc_cat=108&ccb=1-3&_nc_sid=985c63&efg=eyJ2ZW5jb2RlX3RhZyI6Im9lcF9zZCJ9&_nc_eui2=AeG6ZTSwKAzbcuZJE5ZW04GNb-ubKa-a3tZv65spr5re1p0VC4ZhTQZvx4ENY2W7g0r5egO96jEYa66ABNF8ICiw&_nc_ohc=WGA21xmjSNUAX-fhbu0&_nc_ht=scontent.fcjs3-1.fna&oh=4b3a15033d07c659c39d86a2d5f2ba50&oe=60D734D7" type="video/mp4">
+                      
+                  
+                    </video>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Hoy en la Seguridad</h5>
+                    <p class="card-text">Tecnologías LPWAN en las Centrales de Monitoreo y el Sector Financiero por José Palacios.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -327,6 +327,12 @@ h2 {
     margin-top: 2rem;
     font-weight: bold;
     font-size: 2rem;
+    color: #41516A;
+}
+
+.Formulario button {
+    background-color: #1bd687 !important;
+    color: #fff !important;
 }
 
 .Formulario p {
@@ -628,7 +634,9 @@ h2 {
 
 .carousel-caption-inicio h5 {
     width: 100%;
-    font-size: 15px;
+    font-size: 1.80rem;
+    /* color: #41516A; */
+    font-weight: 800;
     text-transform: uppercase;
 }
 
@@ -810,6 +818,15 @@ video {
 
 /* TODO SOLUTIONS FOR ATMS */
 
+.firma {
+    visibility: hidden;
+    float: left;
+    color: transparent;
+    background: transparent;
+    font-size: 10px;
+    margin: 0;
+}
+
 .menu li {
     font-size: 18px !important;
     list-style: circle;
@@ -818,6 +835,7 @@ video {
 
 .card-solutionsforatms {
     /* background-color: #f8f8f8; */
+    /* background-color: #da2828; */
     padding-top: 7rem;
     padding-bottom: 7rem;
 }
@@ -864,4 +882,150 @@ video {
     font-size: 20px;
     text-align: center;
     color: black;
+}
+
+
+/* TODO CARD DE VIDEOS */
+
+
+/* SLIDER */
+
+.imagen-noticias {
+    height: 100vh;
+}
+
+.card-videos {
+    margin-top: 7rem;
+}
+
+.card-videos h5 {
+    font-size: 1.80rem;
+    text-transform: uppercase;
+    color: #41516A;
+    font-weight: 800;
+    /* text-align: center; */
+    line-height: 1.2;
+    letter-spacing: .5px;
+}
+
+.card-videos p {
+    font-size: 18px;
+    font-weight: 500;
+    /* text-align: center; */
+}
+
+
+/* TODO PRUEBA EFECTO TEXTOS CAROUSEL */
+
+.texto-syle {
+    font-size: 2rem;
+    color: #1bd687;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.blink_me1 {
+    animation: blinker 15s linear infinite;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+
+.blink_me2 {
+    animation: blinker 10s linear infinite;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+}
+
+.blink_me3 {
+    animation: blinker 10s linear infinite;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+
+.blink_me4 {
+    animation: blinker 15s linear infinite;
+    position: absolute;
+    top: 70%;
+    left: 25%;
+}
+
+.blink_me5 {
+    animation: blinker 10s linear infinite;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.blink_me6 {
+    animation: blinker 15s linear infinite;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.blink_me7 {
+    animation: blinker 10s linear infinite;
+    position: absolute;
+    top: 80%;
+    left: 5%;
+}
+
+.blink_me8 {
+    animation: blinker 15s linear infinite;
+    position: absolute;
+    left: 83%;
+    top: 10%;
+}
+
+.blink_me9 {
+    animation: blinker 15s linear infinite;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.blink_me10 {
+    animation: blinker 10s linear infinite;
+    position: absolute;
+    left: 65%;
+    top: 25%;
+}
+
+.blink_me11 {
+    animation: blinker 10s linear infinite;
+    position: absolute;
+    top: 50%;
+    left: 70%;
+}
+
+.blink_me12 {
+    animation: blinker 10s linear infinite;
+    position: absolute;
+    left: 70%;
+    top: 70%;
+}
+
+.blink_me13 {
+    animation: blinker 15s linear infinite;
+    position: absolute;
+    top: 80%;
+    left: 81%;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+.Texto-Efecto {
+    position: relative;
+    display: inline-block;
+    text-align: center;
 }

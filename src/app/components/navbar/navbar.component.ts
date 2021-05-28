@@ -42,5 +42,8 @@ export class NavbarComponent implements OnInit {
   toSolutions(){
     document.getElementById('solutions')?.scrollIntoView({behavior: 'smooth'});
   }
+  toNoticias(){
+    document.getElementById('noticias')?.scrollIntoView({behavior: 'smooth'});
+  }
 
 }
