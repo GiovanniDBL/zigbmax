@@ -14,6 +14,9 @@ import { APP_ROUTING } from './routes';
 import { NgsRevealModule } from 'ngx-scrollreveal';
 import { NoticiasComponent } from './components/noticias/noticias.component';
 import { SeguridadComponent } from './components/solutions/seguridad/seguridad.component';
+import { CadenafrioComponent } from './components/solutions/cadenafrio/cadenafrio.component';
+import { MantopredictivoComponent } from './components/solutions/mantopredictivo/mantopredictivo.component';
+import { InfraestructurasComponent } from './components/solutions/infraestructuras/infraestructuras.component';
 
 
 
@@ -28,7 +31,10 @@ import { SeguridadComponent } from './components/solutions/seguridad/seguridad.c
     ContactComponent,
     SecuriityComponent,
     NoticiasComponent,
-    SeguridadComponent
+    SeguridadComponent,
+    CadenafrioComponent,
+    MantopredictivoComponent,
+    InfraestructurasComponent
   ],
   imports: [
     BrowserModule,

@@ -885,6 +885,37 @@ video {
 }
 
 
+/* TODO CARD DROPDOWN MENU ATM SECURITY */
+
+.card-solutions-ATMsense {
+    margin-top: 11rem;
+}
+
+.card-solutions-ATMsense img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 3%;
+}
+
+.card-solutions-ATMsense h5 {
+    font-size: 1.80rem;
+    text-transform: uppercase;
+    color: #41516A;
+    font-weight: 800;
+    /* text-align: center; */
+    line-height: 1.2;
+    letter-spacing: .5px;
+    margin-top: 2rem;
+}
+
+.card-solutions-ATMsense p {
+    font-size: 20px;
+    /* text-align: center; */
+    color: black;
+}
+
+
 /* TODO CARD DE VIDEOS */
 
 
@@ -919,7 +950,7 @@ video {
 
 .texto-syle {
     font-size: 2rem;
-    color: #1bd687;
+    color: #ffffff;
     font-weight: 500;
     text-transform: uppercase;
 }

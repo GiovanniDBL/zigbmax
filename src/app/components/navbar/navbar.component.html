@@ -16,8 +16,8 @@
                         <a class="nav-link active" routerLink='inicio'>Inicio</a>
                     </li>
 
-                    <li class="nav-item dropdown ">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <li class="nav-item dropdown " (click)="toSoluciones()">
+                        <a class="nav-link dropdown-toggle" routerLink='LPWAN Seguridad' href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                           Soluciones
                         </a>
 
@@ -25,7 +25,7 @@
 
                             <!-- TODO Sensores LPWAN para seguridad -->
                             <li class="dropdown-submenu dropstart">
-                                <a href="#" class="dropdown-item dropdown-toggle" href="#">Sensores LPWAN para seguridad</a>
+                                <a href="#" class="dropdown-item dropdown-toggle" routerLink='LPWAN Seguridad' href="#">Sensores LPWAN para seguridad</a>
                                 <ul class="dropdown-menu">
 
                                     <li><a class="dropdown-item" href="#">AMTsense Sigfox</a></li>
@@ -36,14 +36,14 @@
                             </li>
                             <!-- TODO Sensores LPWAN para cadena frio -->
                             <li class="dropdown-submenu dropstart">
-                                <a href="#" class="dropdown-item dropdown-toggle" href="#">Sensores LPWAN para cadena frio</a>
+                                <a href="#" class="dropdown-item dropdown-toggle" routerLink='LPWAN Cadena Frio' href="#">Sensores LPWAN para cadena frio</a>
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item" href="#">TEMPsense I Sigbfox</a></li>
                                 </ul>
                             </li>
                             <!-- TODO Sensores Para mantenimiento predictivo -->
                             <li class="dropdown-submenu dropstart">
-                                <a href="#" class="dropdown-item dropdown-toggle" href="#">Sensores Para mantenimiento predictivo</a>
+                                <a href="#" class="dropdown-item dropdown-toggle" routerLink='Mantenimiento Predictivo' href="#">Sensores Para mantenimiento predictivo</a>
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item" href="#">Sensor para motores de inducción corriente alterna</a></li>
                                     <li>
@@ -57,7 +57,7 @@
 
                             <!-- TODO Sensores Para el Monitoreo de Infraestructoras -->
                             <li class="dropdown-submenu dropstart">
-                                <a href="#" class="dropdown-item dropdown-toggle" href="#">Sensores Para el Monitoreo de Infraestructoras</a>
+                                <a href="#" class="dropdown-item dropdown-toggle" routerLink='Monitoreo de Infraestructuras' href="#">Sensores Para el Monitoreo de Infraestructoras</a>
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item" href="#">Monitores de estructuras de concreto</a></li>
                                     <li><a class="dropdown-item" href="#">Monitores de estructuras metálicas</a></li>

@@ -7,6 +7,9 @@ import { SectorsComponent } from './components/sectors/sectors.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { NoticiasComponent } from './components/noticias/noticias.component';
 import { SeguridadComponent } from './components/solutions/seguridad/seguridad.component';
+import { CadenafrioComponent } from './components/solutions/cadenafrio/cadenafrio.component';
+import { MantopredictivoComponent } from './components/solutions/mantopredictivo/mantopredictivo.component';
+import { InfraestructurasComponent } from './components/solutions/infraestructuras/infraestructuras.component';
 
 const APP_ROUTES: Routes = [
     { path: 'inicio', component: HomeComponent },
@@ -17,6 +20,9 @@ const APP_ROUTES: Routes = [
     { path: 'contact', component: ContactComponent },
     { path: 'noticias', component: NoticiasComponent },
     { path: 'LPWAN Seguridad', component: SeguridadComponent },
+    { path: 'LPWAN Cadena Frio', component: CadenafrioComponent },
+    { path: 'Mantenimiento Predictivo', component: MantopredictivoComponent },
+    { path: 'Monitoreo de Infraestructuras', component: InfraestructurasComponent },
     { path: '**', pathMatch: 'full', redirectTo: 'inicio' }
 ];
 
