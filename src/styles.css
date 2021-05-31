@@ -86,7 +86,7 @@ body {
 }
 
 .dropdown-menu {
-    background-color: #2aa570 !important;
+    background-color: gray !important;
 }
 
 
@@ -952,7 +952,7 @@ video {
     font-size: 2rem;
     color: #ffffff;
     font-weight: 500;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 
 .blink_me1 {
@@ -1031,8 +1031,8 @@ video {
 .blink_me11 {
     animation: blinker 10s linear infinite;
     position: absolute;
-    top: 50%;
-    left: 70%;
+    top: 60%;
+    left: 10%;
 }
 
 .blink_me12 {
@@ -1047,6 +1047,13 @@ video {
     position: absolute;
     top: 80%;
     left: 81%;
+}
+
+.blink_me14 {
+    animation: blinker 10s linear infinite;
+    position: absolute;
+    top: 90%;
+    left: 60%;
 }
 
 @keyframes blinker {
