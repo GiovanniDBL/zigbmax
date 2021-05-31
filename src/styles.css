@@ -956,7 +956,7 @@ video {
 }
 
 .blink_me1 {
-    animation: blinker 15s linear infinite;
+    animation: blinker 10s linear infinite;
     position: absolute;
     top: 10%;
     left: 5%;
@@ -977,7 +977,7 @@ video {
 }
 
 .blink_me4 {
-    animation: blinker 15s linear infinite;
+    animation: blinker 10s linear infinite;
     position: absolute;
     top: 70%;
     left: 25%;
@@ -992,7 +992,7 @@ video {
 }
 
 .blink_me6 {
-    animation: blinker 15s linear infinite;
+    animation: blinker 10s linear infinite;
     position: absolute;
     top: 15%;
     left: 50%;
@@ -1007,14 +1007,14 @@ video {
 }
 
 .blink_me8 {
-    animation: blinker 15s linear infinite;
+    animation: blinker 10s linear infinite;
     position: absolute;
     left: 83%;
     top: 10%;
 }
 
 .blink_me9 {
-    animation: blinker 15s linear infinite;
+    animation: blinker 10s linear infinite;
     position: absolute;
     top: 80%;
     left: 50%;
@@ -1043,15 +1043,18 @@ video {
 }
 
 .blink_me13 {
-    animation: blinker 15s linear infinite;
+    animation: blinker 10s linear infinite;
     position: absolute;
     top: 80%;
     left: 81%;
 }
 
 @keyframes blinker {
-    50% {
+    20% {
         opacity: 0;
+    }
+    100% {
+        opacity: 1;
     }
 }
 

@@ -17,6 +17,11 @@ import { SeguridadComponent } from './components/solutions/seguridad/seguridad.c
 import { CadenafrioComponent } from './components/solutions/cadenafrio/cadenafrio.component';
 import { MantopredictivoComponent } from './components/solutions/mantopredictivo/mantopredictivo.component';
 import { InfraestructurasComponent } from './components/solutions/infraestructuras/infraestructuras.component';
+import { MessageService } from './services/message.service';
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { RecaptchaFormsModule, RecaptchaModule } from 'ng-recaptcha';
+
 
 
 
@@ -41,8 +46,15 @@ import { InfraestructurasComponent } from './components/solutions/infraestructur
     AppRoutingModule,
     APP_ROUTING,
     NgsRevealModule,
+    HttpClientModule,
+    FormsModule,
+    AppRoutingModule,
+    BrowserModule,
+    RecaptchaFormsModule,
+    RecaptchaModule,
+    ReactiveFormsModule
   ],
-  providers: [],
+  providers: [MessageService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

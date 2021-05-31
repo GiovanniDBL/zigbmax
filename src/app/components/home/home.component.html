@@ -13,17 +13,17 @@
 
 
                 <div class="blink_me1 texto-syle">LPWAN</div>
+                <div class="blink_me7 texto-syle">RED 0G</div>
                 <div class="blink_me2 texto-syle">REDES 0G</div>
                 <div class="blink_me3 texto-syle">RED 0G</div>
                 <div class="blink_me4 texto-syle">SigFox</div>
                 <div class="blink_me5 texto-syle">ZigbMax Technology</div>
                 <div class="blink_me6 texto-syle">Protección para ATMs</div>
-                <div class="blink_me7 texto-syle">RED 0G</div>
-                <div class="blink_me8 texto-syle">LORAWAN</div>
                 <div class="blink_me9 texto-syle">MONITOREO CRITICO</div>
                 <div class="blink_me10 texto-syle">SENSORES INTELIGENTES</div>
                 <div class="blink_me11 texto-syle">PROTECCIÓN DE BÓVEDAS</div>
                 <div class="blink_me12 texto-syle">RED 0G</div>
+                <div class="blink_me8 texto-syle">LORAWAN</div>
                 <div class="blink_me13 texto-syle">TE-CAT1 NBIoT</div>
 
 
@@ -495,52 +495,47 @@
                     <div class="modal-content">
 
                         <div class="modal-body">
-                            <form>
+                            <form (ngSubmit)="contactForm(form)" #form="ngForm" method="post" onsubmit="return submitUserForm();">
                                 <div class="form-floating mb-3">
-                                    <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
-                                    <label for="floatingInput" class="text-muted">First Name</label>
+                                    <input type="text" class="form-control" name="firstname" ngModel required minlength="5" placeholder="name@example.com">
+                                    <label class="text-muted">First Name</label>
                                 </div>
                                 <div class="form-floating mb-3">
-                                    <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
-                                    <label for="floatingInput" class="text-muted">Last Name</label>
+                                    <input type="text" class="form-control" name="lastname" ngModel required minlength="5" placeholder="name@example.com">
+                                    <label class="text-muted">Last Name</label>
                                 </div>
                                 <div class="form-floating mb-3">
-                                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                                    <label for="floatingInput" class="text-muted">Email</label>
+                                    <input type="email" class="form-control" email name="email" ngModel required minlength="5" placeholder="name@example.com">
+                                    <label class="text-muted">Email</label>
                                 </div>
                                 <div class="form-floating mb-3">
-                                    <input type="tel" class="form-control" id="floatingInput" placeholder="name@example.com">
-                                    <label for="floatingInput" class="text-muted">Phone</label>
+                                    <input type="tel" class="form-control" name="phone" ngModel required minlength="5" placeholder="name@example.com">
+                                    <label class="text-muted">Phone</label>
                                 </div>
                                 <div class="form-floating">
-                                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                                    <textarea class="form-control" name="message" ngModel required minlength="5" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
                                     <label for="floatingTextarea" class="text-muted">Message</label>
+
+
+                                    <div class="g-recaptcha" style="color:cornsilk;" data-sitekey="6LdKUgEbAAAAAA1VZgWctCI7GO9XT9gYUp3sOno0" data-callback="verifyCaptcha">
+                                        Favor de resolver el reCAPTCHA, en caso de que no aparezca presione el botón de recargar.
+                                    </div>
+
+
+
+                                    <div id="g-recaptcha-error "></div>
+                                    <div class="modal-footer d-flex justify-content-center ">
+                                        <button type="submit " id="btn1" name="submit" value="submit" disabled class="btn btn-lg ">Send Message</button>
+                                    </div>
                                 </div>
                             </form>
                         </div>
-                        <div class="modal-footer d-flex justify-content-center">
-                            <button type="button" class="btn  btn-lg">Send Message</button>
-                        </div>
+
                     </div>
                 </div>
 
             </div>
-            <!-- <div class="col">
-                <h1>inquiries</h1>
-                <hr class="separadorr">
-                <h2>corporate office</h2>
 
-                <p>21 Pinewood Ave Clearwater, FL 33765</p>
-                <p>Tel: (321) 423-9271 <br> (727) 623-3463</p>
-                <img src="assets/img/logo.webp" alt="">
-
-
-            </div> -->
         </div>
     </div>
 </section>
-<!-- <div class="contenedor">
-    <div class="sliderauto">
-
-    </div>
-</div> -->

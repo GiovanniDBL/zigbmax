@@ -4,6 +4,8 @@
 <head>
     <meta charset="utf-8">
     <title>Zigbmax</title>
+    <!-- <script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
+
     <base href="./">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
@@ -18,10 +20,6 @@
 
 
     <script>
-        addEventListener('DOMContentLoaded', () => {
-
-        })
-
         function contador() {
             const counters = document.querySelectorAll('.counter');
             const speed = 250;
@@ -42,7 +40,31 @@
 
 
         }
+
+        // RECAPTCHA
+
+        function submitUserForm() {
+            var response = grecaptcha.getResponse();
+            console.log(response.length);
+            if (response.length == 0) {
+                document.getElementById('g-recaptcha-error').innerHTML = '<span style="color:orange;">El captcha es requerido.</span>';
+                grecaptcha.reload();
+                return false;
+            } else {
+                grecaptcha.reset();
+                document.getElementById("btn1").disabled = true;
+
+            }
+            return true;
+        }
+
+        function verifyCaptcha() {
+            console.log('verified');
+            document.getElementById("btn1").disabled = false;
+            document.getElementById('g-recaptcha-error').innerHTML = '';
+        }
     </script>
+
 
 </body>
 
