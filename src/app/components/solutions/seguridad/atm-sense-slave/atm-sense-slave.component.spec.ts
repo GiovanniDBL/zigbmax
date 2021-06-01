@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AboutusComponent } from './aboutus.component';
+import { AtmSenseSlaveComponent } from './atm-sense-slave.component';
 
-describe('AboutusComponent', () => {
-  let component: AboutusComponent;
-  let fixture: ComponentFixture<AboutusComponent>;
+describe('AtmSenseSlaveComponent', () => {
+  let component: AtmSenseSlaveComponent;
+  let fixture: ComponentFixture<AtmSenseSlaveComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ AboutusComponent ]
+      declarations: [ AtmSenseSlaveComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(AboutusComponent);
+    fixture = TestBed.createComponent(AtmSenseSlaveComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SecuriityComponent } from './securiity.component';
+import { AtmSenseSigfoxComponent } from './atm-sense-sigfox.component';
 
-describe('SecuriityComponent', () => {
-  let component: SecuriityComponent;
-  let fixture: ComponentFixture<SecuriityComponent>;
+describe('AtmSenseSigfoxComponent', () => {
+  let component: AtmSenseSigfoxComponent;
+  let fixture: ComponentFixture<AtmSenseSigfoxComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ SecuriityComponent ]
+      declarations: [ AtmSenseSigfoxComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(SecuriityComponent);
+    fixture = TestBed.createComponent(AtmSenseSigfoxComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

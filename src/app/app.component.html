@@ -3,6 +3,7 @@
 <router-outlet></router-outlet>
 
 
+
 <footer class="footer">
 
     <div class="container">
@@ -38,10 +39,13 @@
     <div class="container-fluid">
         <div>
             <span class="firma">Desarrollador: Giovanni Daniel Brito López</span>
-            <p class="text-derechos-reservados">&copy; Copyright ZigbMax {{fecha | date:'y'}}
-
+            <p class="text-derechos-reservados">&copy; Copyright ZigbMax {{fecha | date:'MMMM y'}}
             </p>
+
+
 
         </div>
     </div>
 </div>
+
+<div>{{ 'HELLO' | translate:param }}</div>

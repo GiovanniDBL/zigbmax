@@ -13,10 +13,10 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item" (click)="toInicio()">
-                        <a class="nav-link active" routerLink='inicio'>Inicio</a>
+                        <a class="nav-link active" routerLink='Inicio'>Inicio</a>
                     </li>
                     <li class="nav-item" (click)="toAboutUs()">
-                        <a class="nav-link active" routerLink='inicio'>Nosotros</a>
+                        <a class="nav-link active" routerLink='Inicio'>Nosotros</a>
                     </li>
 
                     <li class="nav-item dropdown " (click)="toSoluciones()">
@@ -31,8 +31,8 @@
                                 <a href="#" class="dropdown-item dropdown-toggle" routerLink='LPWAN Seguridad' href="#">Sensores LPWAN para seguridad</a>
                                 <ul class="dropdown-menu">
 
-                                    <li><a class="dropdown-item" href="#">AMTsense Sigfox</a></li>
-                                    <li><a class="dropdown-item" href="#">ATMsense Slave </a></li>
+                                    <li><a class="dropdown-item" routerLink='ATMSENSE-SIGFOX' href="#">AMTsense Sigfox</a></li>
+                                    <li><a class="dropdown-item" routerLink='ATMSENSE-SLAVE' href="#">ATMsense Slave </a></li>
                                     <li><a class="dropdown-item" href="#">VAULTsense Sigfox</a></li>
                                     <li><a class="dropdown-item" href="#">DROPsafe Sigfox</a></li>
                                 </ul>
@@ -99,16 +99,16 @@
                     </li>
 
                     <li class="nav-item" (click)="toNoticias()">
-                        <a class="nav-link active" routerLink='noticias'>Noticias</a>
+                        <a class="nav-link active" routerLink='Noticias'>Noticias</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active">Eventos</a>
+                        <a class="nav-link active" routerLink='Eventos'>Eventos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active">Videos</a>
+                        <a class="nav-link active" routerLink='Videos'>Videos</a>
                     </li>
                     <li class="nav-item" (click)="toContact()">
-                        <a class="nav-link active" routerLink='inicio'>Contacto</a>
+                        <a class="nav-link active" routerLink='Inicio'>Contacto</a>
                     </li>
                     <!-- <li class="nav-item" (click)="toSecurity()">
                         <a class="nav-link active" routerLink='inicio'>Seguridad</a>

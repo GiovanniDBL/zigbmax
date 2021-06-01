@@ -15,7 +15,7 @@ module.exports = (formulario) => {
         // }
         host: "easyaccess.com.mx",
         porth: 465,
-        secure: true,
+        secure: smtp - true,
 
 
         // service: 'gmail',
