@@ -1,4 +1,6 @@
 const nodemailer = require('nodemailer');
+
+
 module.exports = (formulario) => {
     var transporter = nodemailer.createTransport({
         // porth: 'a2plcpnl0248.prod.iad2.secureserver.net',
@@ -13,21 +15,26 @@ module.exports = (formulario) => {
 
 
         // }
-        host: "easyaccess.com.mx",
-        porth: 465,
-        secure: smtp - true,
-
+        host: "mail.zigbmax.com",
+        secureConnection: false,
+        port: 465,
 
         // service: 'gmail',
         auth: {
-            user: 'webmaster@easyaccess.com.mx', // Cambialo por tu email
-            pass: '&eXd_(g${p4m', // Cambialo por tu password
+            user: 'info@zigbmax.com',
+            pass: '1nf0#@21..',
+            // user: 'webmaster@easyaccess.com.mx', 
+            // pass: '&eXd_(g${p4m', 
 
+        },
+        debug: true,
+        tls: {
+            rejectUnauthorized: false,
         }
     });
     const mailOptions = {
         from: `"${formulario.firstname}🔔 " <${formulario.email}>`,
-        to: 'giovannibritolopez@hotmail.com', // Cambia esta parte por el destinatario
+        to: 'info@zigbmax.com', // Cambia esta parte por el destinatario
         subject: "Zigbmax",
         html: `
  <strong>Nombre:</strong> ${formulario.firstname} ${formulario.lastname} <br/>

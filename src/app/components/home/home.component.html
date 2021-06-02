@@ -31,13 +31,13 @@
 
 
 
-<div class="container titulo-home" [ngsRevealSet]="{  reset:true, duration:2000, origin:'top', distance:'300px'}" [ngsSelector]="'.titulo-home'">
+<div class="container titulo-home" [ngsRevealSet]="{  reset:false, duration:2000, origin:'top', distance:'300px'}" [ngsSelector]="'.titulo-home'">
     <h1> {{"HOME.TITLE" | translate}}</h1>
 
 
 </div>
 
-<div class="card card-transition container mb-3  card-3sections" style="max-width: 800px;" [ngsRevealSet]="{  reset:true, duration:2000, origin:'top', distance:'300px'}" [ngsSelector]="'.card-transition'">
+<div class="card card-transition container mb-3  card-3sections" style="max-width: 800px;" [ngsRevealSet]="{  reset:false, duration:2000, origin:'top', distance:'300px'}" [ngsSelector]="'.card-transition'">
     <div class="row no-gutters">
         <div class="col-md-4">
             <img src="assets/img/Ai.webp" class="img-fluid" alt="...">
@@ -187,7 +187,7 @@
 
 <!-- *SECURITY SOLUTIONS FOR ATMS  -->
 
-<div id="security" class="card-solutionsforatms" [ngsRevealSet]="{  reset:true, duration:2000, origin:'top', distance:'300px'}" [ngsSelector]="'.card-solutionsforatms'">
+<div id="security" class="card-solutionsforatms" [ngsRevealSet]="{  reset:false, duration:2000, origin:'top', distance:'300px'}" [ngsSelector]="'.card-solutionsforatms'">
 
     <div class="container">
         <div class="row">
@@ -195,8 +195,27 @@
                 <div class="card ">
                     <div class="card-body">
                         <h5 class="card-title">{{"SECURITY-SOLUTIONS-ATMS.TITLE" | translate}}</h5>
+                        <ul class="col3">
+                            <li>{{"SECURITY-SOLUTIONS-ATMS.LI1" | translate}}</li>
+                            <li>{{"SECURITY-SOLUTIONS-ATMS.LI2" | translate}}</li>
+                            <li>{{"SECURITY-SOLUTIONS-ATMS.LI3" | translate}}</li>
+                            <li>{{"SECURITY-SOLUTIONS-ATMS.LI4" | translate}}</li>
+                            <li>{{"SECURITY-SOLUTIONS-ATMS.LI5" | translate}}</li>
+                            <li>{{"SECURITY-SOLUTIONS-ATMS.LI6" | translate}}</li>
+                            <li>{{"SECURITY-SOLUTIONS-ATMS.LI7" | translate}}</li>
+                            <li>{{"SECURITY-SOLUTIONS-ATMS.LI8" | translate}}</li>
+                            <li>{{"SECURITY-SOLUTIONS-ATMS.LI9" | translate}}</li>
+                            <li>{{"SECURITY-SOLUTIONS-ATMS.LI10" | translate}}</li>
 
-                        <ul class="list-group fondo-tabla">
+                        </ul>
+
+                        <!-- <p>{{"SECURITY-SOLUTIONS-ATMS.LI1" | translate}} <span>-</span> {{"SECURITY-SOLUTIONS-ATMS.LI2" | translate}}</p>
+                        <p>{{"SECURITY-SOLUTIONS-ATMS.LI3" | translate}} <span>-</span> {{"SECURITY-SOLUTIONS-ATMS.LI4" | translate}}</p>
+                        <p>{{"SECURITY-SOLUTIONS-ATMS.LI5" | translate}} <span>-</span> {{"SECURITY-SOLUTIONS-ATMS.LI6" | translate}}</p>
+                        <p>{{"SECURITY-SOLUTIONS-ATMS.LI7" | translate}} <span>-</span> {{"SECURITY-SOLUTIONS-ATMS.LI8" | translate}}</p>
+                        <p>{{"SECURITY-SOLUTIONS-ATMS.LI9" | translate}} <span>-</span> {{"SECURITY-SOLUTIONS-ATMS.LI10" | translate}}</p> -->
+
+                        <!-- <ul class="list-group fondo-tabla">
 
 
 
@@ -211,7 +230,7 @@
                             <li class="list-group-item fondo-tabla">{{"SECURITY-SOLUTIONS-ATMS.LI9" | translate}}</li>
                             <li class="list-group-item fondo-tabla">{{"SECURITY-SOLUTIONS-ATMS.LI10" | translate}}</li>
 
-                        </ul>
+                        </ul> -->
                     </div>
                 </div>
             </div>
@@ -228,13 +247,12 @@
 </div>
 
 <!-- TODO FUTURO DE ARM SECURITY CARD -->
-<div class="card-futureatm">
+<div class="card-futureatm" [ngsRevealSet]="{  reset:false, duration:2000, origin:'top', distance:'300px'}" [ngsSelector]="'.card-futureatm'">
 
-    <div class="card container card-transition" style="width: 50%;">
+    <div class="card container " style="width: 50%;">
         <div class="card-body">
-            <h5 class="card-title">The future of atm security is here today</h5>
-            <p class="card-text">Our expertise in atm security has allowed innovation and never before seen technology to elevate your atm security to the next level. We specialize in all levels of external & internal machines for the financial sector. The transmission of
-                data and alarm events are done through internet, lte-m, sigfox or lorawan.</p>
+            <h5 class="card-title">{{"FUTURE-ATM-SECURITY.TITLE" | translate}}</h5>
+            <p class="card-text">{{"FUTURE-ATM-SECURITY.BODY" | translate}}</p>
         </div>
     </div>
 </div>
@@ -261,8 +279,8 @@
 
             <div class="col">
 
-                <h1>{{ 'for more information' | translate }}</h1>
-                <h2>please fill out bellow</h2>
+                <h1>{{ "FORM.TITLE1" | translate }}</h1>
+                <h2>{{ "FORM.TITLE2" | translate }}</h2>
                 <div class="modal-dialog">
                     <div class="modal-content">
 
@@ -270,23 +288,23 @@
                             <form (ngSubmit)="contactForm(form)" #form="ngForm" method="post" onsubmit="return submitUserForm();">
                                 <div class="form-floating mb-3">
                                     <input type="text" class="form-control" name="firstname" ngModel required minlength="5" placeholder="name@example.com">
-                                    <label class="text-muted">First Name</label>
+                                    <label class="text-muted">{{ "FORM.FIRSTNAME" | translate }}</label>
                                 </div>
                                 <div class="form-floating mb-3">
                                     <input type="text" class="form-control" name="lastname" ngModel required minlength="5" placeholder="name@example.com">
-                                    <label class="text-muted">Last Name</label>
+                                    <label class="text-muted">{{ "FORM.LASTNAME" | translate }}</label>
                                 </div>
                                 <div class="form-floating mb-3">
                                     <input type="email" class="form-control" email name="email" ngModel required minlength="5" placeholder="name@example.com">
-                                    <label class="text-muted">Email</label>
+                                    <label class="text-muted">{{ "FORM.EMAIL" | translate }}</label>
                                 </div>
                                 <div class="form-floating mb-3">
                                     <input type="tel" class="form-control" name="phone" ngModel required minlength="5" placeholder="name@example.com">
-                                    <label class="text-muted">Phone</label>
+                                    <label class="text-muted">{{ "FORM.PHONE" | translate }}</label>
                                 </div>
                                 <div class="form-floating">
                                     <textarea class="form-control" name="message" ngModel required minlength="5" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
-                                    <label for="floatingTextarea" class="text-muted">Message</label>
+                                    <label for="floatingTextarea" class="text-muted">{{ "FORM.MESSAGE" | translate }}</label>
 
 
                                     <div class="g-recaptcha" style="color:cornsilk;" data-sitekey="6LdKUgEbAAAAAA1VZgWctCI7GO9XT9gYUp3sOno0" data-callback="verifyCaptcha">
@@ -297,7 +315,7 @@
 
                                     <div id="g-recaptcha-error "></div>
                                     <div class="modal-footer d-flex justify-content-center ">
-                                        <button type="submit " id="btn1" name="submit" value="submit" disabled class="btn btn-lg ">Send Message</button>
+                                        <button type="submit " id="btn1" name="submit" value="submit" disabled class="btn btn-lg ">{{ "FORM.BUTTON" | translate }}</button>
                                     </div>
                                 </div>
                             </form>

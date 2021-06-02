@@ -332,7 +332,7 @@ h2 {
 }
 
 .Formulario button {
-    background-color: #1bd687 !important;
+    background-color: #008001 !important;
     color: #fff !important;
 }
 
@@ -805,15 +805,51 @@ video {
     text-align: center;
 }
 
+
+/* .list-group {
+    padding-right: 0px;
+    padding-left: 0px;
+    float: left;
+    padding-bottom: 0px;
+    margin: 15px 0px;
+    width: 100%;
+    padding-top: 0px;
+    list-style-type: none;
+} */
+
 .list-group-item {
     border: 0 !important;
     /* text-align: center !important; */
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500;
+    text-transform: capitalize;
 }
 
 .fondo-tabla {
     background-color: #ffffff !important;
+}
+
+ul.col3 {
+    PADDING-RIGHT: 0px;
+    PADDING-LEFT: 0px;
+    FLOAT: left;
+    PADDING-BOTTOM: 0px;
+    MARGIN: 15px 0px;
+    WIDTH: 100%;
+    PADDING-TOP: 0px;
+    LIST-STYLE-TYPE: none
+}
+
+ul.col3 li {
+    /* PADDING-RIGHT: 2px; */
+    DISPLAY: inline;
+    PADDING-LEFT: 2px;
+    FLOAT: left;
+    PADDING-BOTTOM: 2px;
+    WIDTH: 50%;
+    PADDING-TOP: 2px;
+    font-size: 20px;
+    text-transform: capitalize;
 }
 
 

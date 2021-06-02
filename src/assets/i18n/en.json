@@ -56,5 +56,20 @@
         "LI8": "atmconnect services",
         "LI9": "heavy duty backup power supply",
         "LI10": "global atm locator"
+    },
+    "FUTURE-ATM-SECURITY": {
+        "TITLE": "The future of atm security is here today",
+        "BODY": "Our expertise in atm security has allowed innovation and never before seen technology to elevate your atm security to the next level. We specialize in all levels of external & internal machines for the financial sector. The transmission of data and alarm events are done through internet, lte-m, sigfox or lorawan."
+    },
+    "FORM": {
+        "TITLE1": "for more information",
+        "TITLE2": "please fill out bellow",
+        "FIRSTNAME": "First Name",
+        "LASTNAME": "Last Name",
+        "EMAIL": "Email",
+        "PHONE": "Phone",
+        "MESSAGE": "Message",
+        "BUTTON": "SEND MESSAGE"
     }
+
 }

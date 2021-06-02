@@ -50,17 +50,31 @@
         "TEXT4": "lanzamiento esperado"
     },
     "SECURITY-SOLUTIONS-ATMS": {
-        "TITLE": "Soluciones de seguridad para cajeros automáticos",
+        "TITLE": "Soluciones de seguridad para ",
         "LI1": "alerta anti-skimmer",
         "LI2": "detector de gas inflamable",
         "LI3": "detector de movimiento ",
         "LI4": "temporizador del cajero automático",
         "LI5": "detector de filtro de falsa alarma",
-        "LI6": "sistema de alarma de inteligencia artificial para cajeros automáticos",
+        "LI6": "sistema de alarma de AI para cajeros automáticos",
         "LI7": "atmgateway-lte-m",
         "LI8": "servicios atmconnect",
         "LI9": "fuente de alimentación de respaldo de alta resistencia",
         "LI10": "localizador de cajeros automáticos global"
+    },
+    "FUTURE-ATM-SECURITY": {
+        "TITLE": "El futuro de la seguridad de los cajeros automáticos está aquí hoy",
+        "BODY": "Nuestra experiencia en seguridad de cajeros automáticos ha permitido que la innovación y una tecnología nunca antes vista eleven la seguridad de sus cajeros automáticos al siguiente nivel. Nos especializamos en todos los niveles de máquinas externas e internas para el sector financiero. La transmisión de datos y eventos de alarma se realiza a través de internet, lte-m, sigfox o lorawan."
+    },
+    "FORM": {
+        "TITLE1": "para más información",
+        "TITLE2": "por favor llene a continuación",
+        "FIRSTNAME": "Nombre",
+        "LASTNAME": "Apellido",
+        "EMAIL": "Correo Electrónico",
+        "PHONE": "Teléfono",
+        "MESSAGE": "Mensaje",
+        "BUTTON": "ENVIAR MENSAJE"
     }
 
 
