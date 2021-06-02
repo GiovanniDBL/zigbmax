@@ -13,22 +13,23 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item" (click)="toInicio()">
-                        <a class="nav-link active" routerLink='Inicio'>Inicio</a>
+                        <a class="nav-link active" routerLink='Inicio'>{{"NAVBAR.HOME" | translate}}</a>
+                        <!-- <div>{{ 'HELLO' | translate }}</div> -->
                     </li>
                     <li class="nav-item" (click)="toAboutUs()">
-                        <a class="nav-link active" routerLink='Inicio'>Nosotros</a>
+                        <a class="nav-link active" routerLink='Inicio'>{{"NAVBAR.ABOUTUS" | translate}}</a>
                     </li>
 
                     <li class="nav-item dropdown " (click)="toSoluciones()">
                         <a class="nav-link dropdown-toggle" routerLink='LPWAN Seguridad' href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Soluciones
+                            {{"NAVBAR.SOLUTIONS" | translate}}
                         </a>
 
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 
                             <!-- TODO Sensores LPWAN para seguridad -->
                             <li class="dropdown-submenu dropstart">
-                                <a href="#" class="dropdown-item dropdown-toggle" routerLink='LPWAN Seguridad' href="#">Sensores LPWAN para seguridad</a>
+                                <a href="#" class="dropdown-item dropdown-toggle" routerLink='LPWAN Seguridad' href="#">{{"DROPDOWN.SECURITY" | translate}}</a>
                                 <ul class="dropdown-menu">
 
                                     <li><a class="dropdown-item" routerLink='ATMSENSE-SIGFOX' href="#">AMTsense Sigfox</a></li>
@@ -39,14 +40,14 @@
                             </li>
                             <!-- TODO Sensores LPWAN para cadena frio -->
                             <li class="dropdown-submenu dropstart">
-                                <a href="#" class="dropdown-item dropdown-toggle" routerLink='LPWAN Cadena Frio' href="#">Sensores LPWAN para cadena frio</a>
+                                <a href="#" class="dropdown-item dropdown-toggle" routerLink='LPWAN Cadena Frio' href="#">{{"DROPDOWN.COLD" | translate}}</a>
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item" href="#">TEMPsense I Sigbfox</a></li>
                                 </ul>
                             </li>
                             <!-- TODO Sensores Para mantenimiento predictivo -->
                             <li class="dropdown-submenu dropstart">
-                                <a href="#" class="dropdown-item dropdown-toggle" routerLink='Mantenimiento Predictivo' href="#">Sensores Para mantenimiento predictivo</a>
+                                <a href="#" class="dropdown-item dropdown-toggle" routerLink='Mantenimiento Predictivo' href="#">{{"DROPDOWN.PREDICTIVE" | translate}}</a>
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item" href="#">Sensor para motores de inducción corriente alterna</a></li>
                                     <li>
@@ -60,7 +61,7 @@
 
                             <!-- TODO Sensores Para el Monitoreo de Infraestructoras -->
                             <li class="dropdown-submenu dropstart">
-                                <a href="#" class="dropdown-item dropdown-toggle" routerLink='Monitoreo de Infraestructuras' href="#">Sensores Para el Monitoreo de Infraestructoras</a>
+                                <a href="#" class="dropdown-item dropdown-toggle" routerLink='Monitoreo de Infraestructuras' href="#">{{"DROPDOWN.INFRASTRUCTURES" | translate}}</a>
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item" href="#">Monitores de estructuras de concreto</a></li>
                                     <li><a class="dropdown-item" href="#">Monitores de estructuras metálicas</a></li>
@@ -99,17 +100,26 @@
                     </li>
 
                     <li class="nav-item" (click)="toNoticias()">
-                        <a class="nav-link active" routerLink='Noticias'>Noticias</a>
+                        <a class="nav-link active" routerLink='Noticias'>{{"NAVBAR.NEWS" | translate}}</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" routerLink='Eventos'>Eventos</a>
+                        <a class="nav-link active" routerLink='Eventos'>{{"NAVBAR.EVENTS" | translate}}</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" routerLink='Videos'>Videos</a>
+                        <a class="nav-link active" routerLink='Videos'>{{"NAVBAR.VIDEOS" | translate}}</a>
                     </li>
                     <li class="nav-item" (click)="toContact()">
-                        <a class="nav-link active" routerLink='Inicio'>Contacto</a>
+                        <a class="nav-link active" routerLink='Inicio'>{{"NAVBAR.CONTACT" | translate}}</a>
                     </li>
+
+
+                    <select class="form-select" aria-label="Default select example" #langSelect (change)="changeLang(langSelect.value)">
+            <option *ngFor="let lang of langs" [value]="lang">
+                {{lang}}
+            </option>
+          </select>
+
+
                     <!-- <li class="nav-item" (click)="toSecurity()">
                         <a class="nav-link active" routerLink='inicio'>Seguridad</a>
                     </li> -->

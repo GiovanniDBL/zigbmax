@@ -1,5 +1,67 @@
 {
-    "texto": {
-        "title": "HOLA"
+
+    "NAVBAR": {
+        "HOME": "inicio",
+        "ABOUTUS": "nosotros",
+        "SOLUTIONS": "soluciones",
+        "NEWS": "noticias",
+        "EVENTS": "eventos",
+        "VIDEOS": "videos",
+        "CONTACT": "contacto"
+    },
+    "DROPDOWN": {
+        "SECURITY": "sensores lpwan para seguridad",
+        "COLD": "sensores lpwan para cadena frio",
+        "PREDICTIVE": "sensores para mantenimiento predictivo",
+        "INFRASTRUCTURES": "sensores para el monitoreo de infraestructuras"
+    },
+    "HOME": {
+        "TITLE": "La seguridad de hoy con la tecnología del mañana"
+    },
+    "ARTIFICIAL-INTELLIGENCE": {
+        "TITLE": "inteligencia artificial",
+        "BODY": "Cada una de nuestras soluciones de seguridad se basa en IA de próxima generación. Su núcleo se basa precisamente en inteligencia artificial con capacidades nunca antes vistas."
+    },
+    "GLOBAL-SOLUTIONS": {
+        "TITLE": "soluciones globales",
+        "BODY": "Tenemos un profundo conocimiento y experiencia central para evitar cometer fraudes con los cajeros automáticos."
+    },
+    "EXPERTISE-IN-ATM": {
+        "TITLE": "Experiencia en seguridad de cajeros automáticos",
+        "BODY": "Nuestros productos trascienden más allá del sector de la seguridad financiera. Nuestra capacidad para adaptarnos a muchos sectores diferentes de la seguridad, nos permite dar forma al futuro de la seguridad."
+    },
+    "SECTORS": {
+        "TITLE": "sectores en los que operamos",
+        "FINANCIAL": "financiero",
+        "RESIDENTIAL": "residencial",
+        "COMMERCIAL": "comercial"
+    },
+    "ABOUTUS": {
+        "BODY": "ZigbMax Technology es una empresa especializada en Sistemas de comunicaciones aplicada a la seguridad Electrónica basada en la Tecnología ESS (Embedded Security System) y Sensores inteligentes para el internet de las cosa Industrial (IioT).",
+        "LI1": "Fue fundada en los EE.UU. En el 2009 y en México en el 2012.",
+        "LI2": "El principal negocio de nuestra organización son las soluciones OEM, ventas de licencias de manufactura de nuestros productos,Desarrollo de sensores con tecnologías Wi-FI, Bluetooth, Lora, Lorawan, Sigfox y LTE-M1/NB-IoT.(LPWAN).",
+        "LI3": "Nuestro foco esta orientado a:",
+        "LI4": "Sensores de seguridad para el sectores financiero y Retail, específicamente en soluciones para ATM, Cajas Fuertes y Bóvedas. Sensores iiot para los sectores Retail, Industrial y Hospitalidad."
+    },
+    "EXPERIENCE": {
+        "TEXT1": "año establecido",
+        "TEXT2": "Años de experiencia combinada",
+        "TEXT3": "Proyectos actuales",
+        "TEXT4": "lanzamiento esperado"
+    },
+    "SECURITY-SOLUTIONS-ATMS": {
+        "TITLE": "Soluciones de seguridad para cajeros automáticos",
+        "LI1": "alerta anti-skimmer",
+        "LI2": "detector de gas inflamable",
+        "LI3": "detector de movimiento ",
+        "LI4": "temporizador del cajero automático",
+        "LI5": "detector de filtro de falsa alarma",
+        "LI6": "sistema de alarma de inteligencia artificial para cajeros automáticos",
+        "LI7": "atmgateway-lte-m",
+        "LI8": "servicios atmconnect",
+        "LI9": "fuente de alimentación de respaldo de alta resistencia",
+        "LI10": "localizador de cajeros automáticos global"
     }
+
+
 }

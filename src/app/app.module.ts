@@ -9,7 +9,7 @@ import { AppRoutingModule } from './app-routing.module';
 // registerLocaleData(localEs);
 // registerLocaleData(localEn);
 // LocalData Language ****
-import { AppComponent } from './app.component';
+
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { HomeComponent } from './components/home/home.component';
 import { SolutionsComponent } from './components/solutions/solutions.component';
@@ -31,8 +31,10 @@ import { VideosComponent } from './components/videos/videos.component';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 
+import { AppComponent } from './app.component';
+
 export function HttpLoaderFactory(http: HttpClient) {
-  return new TranslateHttpLoader(http);
+  return new TranslateHttpLoader(http, './assets/i18n/', '.json');
 }
 
 @NgModule({
@@ -68,7 +70,6 @@ export function HttpLoaderFactory(http: HttpClient) {
     RecaptchaModule,
     ReactiveFormsModule,
     TranslateModule.forRoot({
-      defaultLanguage: 'es',
       loader: {
         provide: TranslateLoader,
         useFactory: HttpLoaderFactory,

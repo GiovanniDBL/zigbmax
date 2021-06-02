@@ -9,14 +9,21 @@ import { TranslateService } from '@ngx-translate/core';
 })
 export class AppComponent {
   title = 'zigbmax';
-  param = {value: 'world'};
+  // langs: string[] = [];
 
-  constructor(translate: TranslateService){
-    translate.setDefaultLang('es');
+  // constructor(public translate: TranslateService){
+  
+  //   this.translate.setDefaultLang('en');
+  //   this.translate.use('en');
+  //   this.translate.addLangs(['en', 'es',]);
+  //   this.langs = this.translate.getLangs();
 
-    translate.use('es');
-  }
 
+  // }
+
+  // changeLang(lang: string){
+  //   this.translate.use(lang);
+  // }
  
 
   fecha: Date = new Date();

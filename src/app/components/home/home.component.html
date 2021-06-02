@@ -32,7 +32,8 @@
 
 
 <div class="container titulo-home" [ngsRevealSet]="{  reset:true, duration:2000, origin:'top', distance:'300px'}" [ngsSelector]="'.titulo-home'">
-    <h1>Today's security with tomorrow's technology</h1>
+    <h1> {{"HOME.TITLE" | translate}}</h1>
+
 
 </div>
 
@@ -43,8 +44,8 @@
         </div>
         <div class="col-md-8">
             <div class="card-body">
-                <h5 class="card-title">Artificial Intelligence</h5>
-                <p class="card-text">Every one of our Security Solutions are built on Next-Gen AI. It's core is precisely built on Artificial Inteligence with capabilities never before seen.</p>
+                <h5 class="card-title">{{"ARTIFICIAL-INTELLIGENCE.TITLE" | translate}}</h5>
+                <p class="card-text">{{"ARTIFICIAL-INTELLIGENCE.BODY" | translate}}</p>
 
             </div>
         </div>
@@ -54,8 +55,8 @@
     <div class="row no-gutters">
         <div class="col-md-8">
             <div class="card-body">
-                <h5 class="card-title">Global solutions</h5>
-                <p class="card-text">We have a profound understanding & expertise central to avoid commiting fraud with Automater Taller Machines.</p>
+                <h5 class="card-title">{{"GLOBAL-SOLUTIONS.TITLE" | translate}}</h5>
+                <p class="card-text">{{"GLOBAL-SOLUTIONS.BODY" | translate}}</p>
 
             </div>
         </div>
@@ -72,8 +73,8 @@
         </div>
         <div class="col-md-8">
             <div class="card-body">
-                <h5 class="card-title">Expertise In ATM Security</h5>
-                <p class="card-text">Our products transcend beyond the Financial Security Sector. Our ability to adapt to many different Sectors in Security, allow us to shape the Future of Security.</p>
+                <h5 class="card-title">{{"EXPERTISE-IN-ATM.TITLE" | translate}}</h5>
+                <p class="card-text">{{"EXPERTISE-IN-ATM.BODY" | translate}}</p>
 
             </div>
         </div>
@@ -85,14 +86,14 @@
 
 <div id="sectors" class="card-sectors card-transition">
     <div class="container  ">
-        <h1>sectors we operate in</h1>
+        <h1>{{"SECTORS.TITLE" | translate}}</h1>
 
         <div class="row container row-cols-1 row-cols-md-3 g-4">
             <div class="col">
                 <div class="card h-100">
                     <img src="assets/img/financial.webp" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Financial</h5>
+                        <h5 class="card-title">{{"SECTORS.FINANCIAL" | translate}}</h5>
 
                     </div>
 
@@ -102,7 +103,7 @@
                 <div class="card h-100">
                     <img src="assets/img/residential.webp" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Residential</h5>
+                        <h5 class="card-title">{{"SECTORS.RESIDENTIAL" | translate}}</h5>
 
                     </div>
 
@@ -112,7 +113,7 @@
                 <div class="card h-100">
                     <img src="assets/img/commercial.webp" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Commercial</h5>
+                        <h5 class="card-title">{{"SECTORS.COMMERCIAL" | translate}}</h5>
 
                     </div>
 
@@ -123,7 +124,7 @@
 </div>
 
 
-
+<!-- TODO CARD NOSOTROS -->
 
 <div id="aboutus" class="card-nosotros card-transition">
 
@@ -134,8 +135,7 @@
                     <div class="card-body">
                         <img src="assets/img/logo.webp" class="img-fluid" alt="...">
                         <!-- <h5 class="card-title">Nosotros</h5> -->
-                        <p class="card-text">ZigbMax Technology es una empresa especializada en Sistemas de comunicaciones aplicada a la seguridad Electrónica basada en la Tecnología ESS (Embedded Security System) y Sensores inteligentes para el internet de las cosa Industrial
-                            (IioT).
+                        <p class="card-text">{{"ABOUTUS.BODY" | translate}}
                         </p>
 
                     </div>
@@ -145,11 +145,11 @@
                 <div class="card">
                     <div class="card-body">
                         <ul class="list-group">
-                            <li class="list-group-item">Fue fundada en los EE.UU. En el 2009 y en México en el 2012. </li>
-                            <li class="list-group-item">El principal negocio de nuestra organización son las soluciones OEM, ventas de licencias de manufactura de nuestros productos,Desarrollo de sensores con tecnologías Wi-FI, Bluetooth, Lora, Lorawan, Sigfox y LTE-M1/NB-IoT.(LPWAN).
+                            <li class="list-group-item">{{"ABOUTUS.LI1" | translate}}</li>
+                            <li class="list-group-item">{{"ABOUTUS.LI2" | translate}}
                             </li>
-                            <li class="list-group-item">Nuestro foco esta orientado a:</li>
-                            <li class="list-group-item">Sensores de seguridad para el sectores financiero y Retail, específicamente en soluciones para ATM,Cajas Fuertes y Bóvedas.Sensores iiot para los sectores Retail, Industrial y Hospitality.</li>
+                            <li class="list-group-item">{{"ABOUTUS.LI3" | translate}}</li>
+                            <li class="list-group-item">{{"ABOUTUS.LI4" | translate}}</li>
 
                         </ul>
                     </div>
@@ -169,16 +169,16 @@
         <ul class="resumen-evento clearfix ">
             <li>
 
-                <p class="numero counter" data-cantidad-total="2019">0</p>Year Established</li>
+                <p class="numero counter" data-cantidad-total="2019">0</p>{{"EXPERIENCE.TEXT1" | translate}}</li>
             <li>
 
-                <p class="numero counter" data-cantidad-total="35">0</p>Years of combined Experience</li>
+                <p class="numero counter" data-cantidad-total="35">0</p>{{"EXPERIENCE.TEXT2" | translate}}</li>
             <li>
 
-                <p class="numero counter" data-cantidad-total="7">0</p>Current Projects</li>
+                <p class="numero counter" data-cantidad-total="7">0</p>{{"EXPERIENCE.TEXT3" | translate}}</li>
             <li>
 
-                <p class="numero counter " data-cantidad-total="2020">0</p>Expected Release</li>
+                <p class="numero counter " data-cantidad-total="2020">0</p>{{"EXPERIENCE.TEXT4" | translate}}</li>
         </ul>
     </div>
 </div>
@@ -194,22 +194,22 @@
             <div class="col-sm-6">
                 <div class="card ">
                     <div class="card-body">
-                        <h5 class="card-title">Security solutions for atms</h5>
+                        <h5 class="card-title">{{"SECURITY-SOLUTIONS-ATMS.TITLE" | translate}}</h5>
 
                         <ul class="list-group fondo-tabla">
 
 
 
-                            <li class="list-group-item fondo-tabla">Anti-Skimmer Alert</li>
-                            <li class="list-group-item fondo-tabla">flammable gas detector</li>
-                            <li class="list-group-item fondo-tabla">movement detector</li>
-                            <li class="list-group-item fondo-tabla">atm watchdog</li>
-                            <li class="list-group-item fondo-tabla">false alarm filter detector</li>
-                            <li class="list-group-item fondo-tabla">ai alarm system for atms</li>
-                            <li class="list-group-item fondo-tabla">atmgateway-lte-m</li>
-                            <li class="list-group-item fondo-tabla">atmconnect services</li>
-                            <li class="list-group-item fondo-tabla">heavy duty backup power supply</li>
-                            <li class="list-group-item fondo-tabla">global atm locator</li>
+                            <li class="list-group-item fondo-tabla">{{"SECURITY-SOLUTIONS-ATMS.LI1" | translate}}</li>
+                            <li class="list-group-item fondo-tabla">{{"SECURITY-SOLUTIONS-ATMS.LI2" | translate}}</li>
+                            <li class="list-group-item fondo-tabla">{{"SECURITY-SOLUTIONS-ATMS.LI3" | translate}}</li>
+                            <li class="list-group-item fondo-tabla">{{"SECURITY-SOLUTIONS-ATMS.LI4" | translate}}</li>
+                            <li class="list-group-item fondo-tabla">{{"SECURITY-SOLUTIONS-ATMS.LI5" | translate}}</li>
+                            <li class="list-group-item fondo-tabla">{{"SECURITY-SOLUTIONS-ATMS.LI6" | translate}}</li>
+                            <li class="list-group-item fondo-tabla">{{"SECURITY-SOLUTIONS-ATMS.LI7" | translate}}</li>
+                            <li class="list-group-item fondo-tabla">{{"SECURITY-SOLUTIONS-ATMS.LI8" | translate}}</li>
+                            <li class="list-group-item fondo-tabla">{{"SECURITY-SOLUTIONS-ATMS.LI9" | translate}}</li>
+                            <li class="list-group-item fondo-tabla">{{"SECURITY-SOLUTIONS-ATMS.LI10" | translate}}</li>
 
                         </ul>
                     </div>
@@ -260,7 +260,8 @@
         <div class="row">
 
             <div class="col">
-                <h1>for more information</h1>
+
+                <h1>{{ 'for more information' | translate }}</h1>
                 <h2>please fill out bellow</h2>
                 <div class="modal-dialog">
                     <div class="modal-content">

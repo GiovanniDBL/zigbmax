@@ -1,0 +1,60 @@
+{
+    "NAVBAR": {
+        "HOME": "home",
+        "ABOUTUS": "aboutus",
+        "SOLUTIONS": "solutions",
+        "NEWS": "news",
+        "EVENTS": "events",
+        "VIDEOS": "videos",
+        "CONTACT": "contact"
+    },
+    "DROPDOWN": {
+        "SECURITY": "lpwan sensors for security ",
+        "COLD": "lpwan sensors for cold chain",
+        "PREDICTIVE": "sensors for predictive maintenance ",
+        "INFRASTRUCTURES": "sensors for infrastructure monitoring "
+    },
+    "HOME": {
+        "TITLE": "Today's security with tomorrow's technology"
+    },
+    "ARTIFICIAL-INTELLIGENCE": {
+        "TITLE": "artificial intelligence",
+        "BODY": "Every one of our Security Solutions are built on Next-Gen AI. It's core is precisely built on Artificial Intelligence with capabilities never before seen."
+    },
+    "GLOBAL-SOLUTIONS": {
+        "TITLE": "global solutions",
+        "BODY": "We have a profound understanding & expertise central to avoid committing fraud with Automated Teller Machines."
+    },
+    "SECTORS": {
+        "TITLE": "sectors we operate in",
+        "FINANCIAL": "financial",
+        "RESIDENTIAL": "residential",
+        "COMMERCIAL": "commercial"
+    },
+    "ABOUTUS": {
+        "BODY": "ZigbMax Technology is a company specialized in Communication Systems applied to Electronic Security based on ESS Technology (Embedded Security System) and Smart Sensors for the Industrial Internet of Things (IioT).",
+        "LI1": "It was founded in the US in 2009 and in Mexico in 2012.",
+        "LI2": "The main business of our organization is OEM solutions, sales of manufacturing licenses for our products, Development of sensors with Wi-FI, Bluetooth, Lora, Lorawan, Sigfox and LTE-M1 / NB-IoT technologies (LPWAN).",
+        "LI3": "Our focus is oriented to:",
+        "LI4": "Security sensors for the financial and Retail sector, specifically in solutions for ATM, Safes and Vaults. Iiot sensors for the Retail, Industrial and Hospitality sectors."
+    },
+    "EXPERIENCE": {
+        "TEXT1": "year established",
+        "TEXT2": "years of combined experience",
+        "TEXT3": "current projects",
+        "TEXT4": "expected release"
+    },
+    "SECURITY-SOLUTIONS-ATMS": {
+        "TITLE": "Security solutions for atms",
+        "LI1": "Anti-Skimmer Alert",
+        "LI2": "flammable gas detector",
+        "LI3": "movement detector",
+        "LI4": "atm watchdog",
+        "LI5": "false alarm filter detector",
+        "LI6": "ai alarm system for atms",
+        "LI7": "atmgateway-lte-m",
+        "LI8": "atmconnect services",
+        "LI9": "heavy duty backup power supply",
+        "LI10": "global atm locator"
+    }
+}

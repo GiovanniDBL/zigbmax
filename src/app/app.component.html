@@ -2,6 +2,16 @@
 
 <router-outlet></router-outlet>
 
+<!-- <label>
+    change
+    <select #langSelect (change)="changeLang(langSelect.value)">
+        <option *ngFor="let lang of langs" [value]="lang">
+            {{lang}}
+        </option>
+    </select>
+</label> -->
+
+<!-- <div>{{ 'HELLO' | translate }}</div> -->
 
 
 <footer class="footer">
@@ -47,5 +57,3 @@
         </div>
     </div>
 </div>
-
-<div>{{ 'HELLO' | translate:param }}</div>
