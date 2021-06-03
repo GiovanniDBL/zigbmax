@@ -3,37 +3,25 @@ const nodemailer = require('nodemailer');
 
 module.exports = (formulario) => {
     var transporter = nodemailer.createTransport({
-        // porth: 'a2plcpnl0248.prod.iad2.secureserver.net',
 
-        // host: 'smtp.gmail.com',
-        // port: 465,
-        // secure: true, 
-
-        // auth: {
-        //     user: 'britodany12@gmail.com', 
-        //     pass: 'D19942344', 
-
-
-        // }
-        host: "mail.zigbmax.com",
-        secureConnection: false,
+        host: "zigbmax.com",
+        // secureConnection: false,
         port: 465,
+        secure: true,
 
-        // service: 'gmail',
+
         auth: {
             user: 'info@zigbmax.com',
             pass: '1nf0#@21..',
-            // user: 'webmaster@easyaccess.com.mx', 
-            // pass: '&eXd_(g${p4m', 
 
         },
-        debug: true,
+
         tls: {
-            rejectUnauthorized: false,
+            rejectUnauthorized: false
         }
     });
     const mailOptions = {
-        from: `"${formulario.firstname}🔔 " <${formulario.email}>`,
+        from: `"${formulario.firstname} " <${formulario.email}>`,
         to: 'info@zigbmax.com', // Cambia esta parte por el destinatario
         subject: "Zigbmax",
         html: `
@@ -48,5 +36,6 @@ module.exports = (formulario) => {
             console.log(err)
         else
             console.log(info);
+        console.log("Correo enviado correctamente");
     });
 }

@@ -25,6 +25,10 @@
         "TITLE": "global solutions",
         "BODY": "We have a profound understanding & expertise central to avoid committing fraud with Automated Teller Machines."
     },
+    "EXPERTISE-IN-ATM": {
+        "TITLE": "expertise in atm security",
+        "BODY": "Our products transcend beyond the Financial Security Sector. Our ability to adapt to many different Sectors in Security, allow us to shape the Future of Security."
+    },
     "SECTORS": {
         "TITLE": "sectors we operate in",
         "FINANCIAL": "financial",
@@ -70,6 +74,10 @@
         "PHONE": "Phone",
         "MESSAGE": "Message",
         "BUTTON": "SEND MESSAGE"
+    },
+    "SOLUTIONS": {
+        "VIDEO-TITLE": "LPWAN SENSORS FOR SECURITY"
     }
+
 
 }

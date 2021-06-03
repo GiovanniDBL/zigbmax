@@ -64,7 +64,7 @@
     },
     "FUTURE-ATM-SECURITY": {
         "TITLE": "El futuro de la seguridad de los cajeros automáticos está aquí hoy",
-        "BODY": "Nuestra experiencia en seguridad de cajeros automáticos ha permitido que la innovación y una tecnología nunca antes vista eleven la seguridad de sus cajeros automáticos al siguiente nivel. Nos especializamos en todos los niveles de máquinas externas e internas para el sector financiero. La transmisión de datos y eventos de alarma se realiza a través de internet, lte-m, sigfox o lorawan."
+        "BODY": "Nuestra experiencia en seguridad de cajeros automáticos ha permitido que la innovación y una tecnología nunca antes vista eleve la seguridad de sus cajeros automáticos al siguiente nivel. Nos especializamos en todos los niveles de máquinas externas e internas para el sector financiero. La transmisión de datos y eventos de alarma se realiza a través de internet, lte-m, sigfox o lorawan."
     },
     "FORM": {
         "TITLE1": "para más información",
@@ -75,6 +75,9 @@
         "PHONE": "Teléfono",
         "MESSAGE": "Mensaje",
         "BUTTON": "ENVIAR MENSAJE"
+    },
+    "SOLUTIONS": {
+        "VIDEO-TITLE": "SENSORES LPWAN PARA SEGURIDAD"
     }
 
 
