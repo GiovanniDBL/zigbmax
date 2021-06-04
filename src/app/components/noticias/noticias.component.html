@@ -1,32 +1,18 @@
 <section class="animated fadeIn" id="noticias">
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
         <div class="carousel-indicators">
-            <!-- <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button> -->
-            <!-- <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button> -->
+
         </div>
         <div class="carousel-inner">
             <div class="carousel-item Texto-Efecto active   video ">
                 <video src="assets/videos/noticias-video.mp4" class="d-block" [muted]="'muted'" autoplay loop></video>
 
-
-
-
-
                 <div class="carousel-caption carousel-caption-inicio header-imagen-fondos  d-md-block" [ngsRevealSet]="{  reset:true, duration:2000, origin:'top', distance:'300px'}" [ngsSelector]="'.carousel-caption'">
-                    <h5>Noticias</h5>
-
-
+                    <h5> {{"NOTICIAS.TITLE" | translate}}</h5>
                 </div>
             </div>
         </div>
-        <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button> -->
+
     </div>
 </section>
 <div class="container card-videos">
@@ -46,9 +32,8 @@
         <div class="col-sm-6">
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title" [ngsRevealSet]="{ reset:true, duration:2000}" [ngsSelector]="'.card'">¿Qué hice en tiempo de pandemia?</h5>
-                    <p class="card-text">2019 estaba escribiendo el libro “Crónica de una muerte anunciada de las centrales de Monitoreo” pero perdí la concentración totalmente y no pude continuar con el libro, pero las grandes tragedias nos obligan a ser mas creativos para
-                        resolver los grandes problemas, a mi medio por desarrollar una nueva tecnología de sensores inteligente, para resolver algunos problemas del sector financiero, Industrial y alimenticio.</p>
+                    <h5 class="card-title" [ngsRevealSet]="{ reset:true, duration:2000}" [ngsSelector]="'.card'">{{"NOTICIAS.TITLE-VIDEO1" | translate}}</h5>
+                    <p class="card-text">{{"NOTICIAS.BODY-VIDEO1" | translate}}</p>
 
                 </div>
             </div>
@@ -69,9 +54,8 @@
         <div class="col-sm-6">
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title">Entrevista Ing. José Palacios.</h5>
-                    <p class="card-text">Especialista Eléctrica, Electrónica y Comunicaciones. Desarrollador de Tecnología. Quién nos habló de " Beneficios del IOT para las Soluciones de Seguridad". ✓La importancia de las Redes LPWAN en las comunicaciones ✓ Redes LPWAN y
-                        sus aplicaciones en proyectos de Redes y VideoVigilancia.
+                    <h5 class="card-title">{{"NOTICIAS.TITLE-VIDEO2" | translate}}</h5>
+                    <p class="card-text">{{"NOTICIAS.BODY-VIDEO2" | translate}}
                     </p>
 
                 </div>
@@ -93,8 +77,8 @@
         <div class="col-sm-6">
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title">Hoy en la Seguridad</h5>
-                    <p class="card-text">Tecnologías LPWAN en las Centrales de Monitoreo y el Sector Financiero por José Palacios.</p>
+                    <h5 class="card-title">{{"NOTICIAS.TITLE-VIDEO3" | translate}}</h5>
+                    <p class="card-text">{{"NOTICIAS.BODY-VIDEO3" | translate}}</p>
                 </div>
             </div>
         </div>

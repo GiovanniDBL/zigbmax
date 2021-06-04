@@ -3,14 +3,12 @@ import {FormBuilder, FormControl, FormGroup, Validators} from '@angular/forms';
 import Swal from 'sweetalert2';
 import { HttpClient } from '@angular/common/http';
 import { MessageService } from '../../../../services/message.service';
-
-
 @Component({
-  selector: 'app-atm-sense-slave',
-  templateUrl: './atm-sense-slave.component.html',
-  styleUrls: ['./atm-sense-slave.component.css']
+  selector: 'app-vaultsense-sigfox',
+  templateUrl: './vaultsense-sigfox.component.html',
+  styleUrls: ['./vaultsense-sigfox.component.css']
 })
-export class AtmSenseSlaveComponent implements OnInit {
+export class VaultsenseSigfoxComponent implements OnInit {
 
   protected aFormGroup: FormGroup | undefined;
   recaptcha = new FormControl('');

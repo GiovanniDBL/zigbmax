@@ -15,6 +15,16 @@
         "PREDICTIVE": "sensores para mantenimiento predictivo",
         "INFRASTRUCTURES": "sensores para el monitoreo de infraestructuras"
     },
+    "DROPDOWN-CHILD": {
+        "PREDICTIVE-TITLE1": "Sensor para motores de inducción corriente alterna",
+        "PREDICTIVE-TITLE2": "Sensor para Bombas de Agua y Aguas residuales",
+        "PREDICTIVE-TITLE3": "Sensor para Bandas de Rodamientos",
+
+        "INFRASTRUCTURES-TITLE1": "Monitores de estructuras de concreto",
+        "INFRASTRUCTURES-TITLE2": "Monitores de estructuras metálicas",
+        "INFRASTRUCTURES-TITLE3": "Monitores de puentes viales"
+
+    },
     "HOME": {
         "TITLE": "La seguridad de hoy con la tecnología del mañana"
     },
@@ -77,7 +87,26 @@
         "BUTTON": "ENVIAR MENSAJE"
     },
     "SOLUTIONS": {
-        "VIDEO-TITLE": "SENSORES LPWAN PARA SEGURIDAD"
+        "VIDEO-SECURITY-TITLE": "SENSORES LPWAN PARA SEGURIDAD",
+        "VIDEO-COLDCHAIN-TITLE": "SENSORES LPWAN PARA CADENA FRIO",
+        "VIDEO-PREDICTIVE-TITLE": "SENSORES PARA MANTENIMIENTO PREDICTIVO",
+        "VIDEO-INFRAESTRUCTURE-TITLE": "SENSORES PARA EL MONITOREO DE INFRAESTRUCTURAS"
+    },
+    "LPWAN-SENSORES-FOR-SECURITY": {
+        "AMTSENSE-SIGFOX-BODY": "ATMsense Sensor Inteligente Wireless Sigfox Para protección de Cajeros Automáticos.El ATMsense no necesita del panel de alarma paraComunicarse a la central de monitoreo.Características generales:Sensor con analíticos de temperatura, Vibración, detección de Inclinación, detección de gases explosivos,1 Zona de alarma supervisada, 1 Zona de Keyswitch para Armado/desarmado y cuentaCon la tecnologías MagneticSafe.",
+        "ATMSENSE-SLAVE-BODY": "El ATMsense-Slave es compatible con todos losSistemas de alarmas del mercado. Para protección de Cajeros Automáticos.Características generales:Sensor dual de temperatura, Vibración, detección de Inclinación, detección de gases explosivos,2 Zonas de alarma supervisada y cuentaCon la tecnologías MagneticSafe."
+    },
+    "NOTICIAS": {
+        "TITLE": "noticias",
+
+        "TITLE-VIDEO1": "¿Qué hice en tiempo de pandemia?",
+        "BODY-VIDEO1": "2019 estaba escribiendo el libro “Crónica de una muerte anunciada de las centrales de Monitoreo” pero perdí la concentración totalmente y no pude continuar con el libro, pero las grandes tragedias nos obligan a ser mas creativos para resolver los grandes problemas, a mi medio por desarrollar una nueva tecnología de sensores inteligente, para resolver algunos problemas del sector financiero, Industrial y alimenticio.",
+
+        "TITLE-VIDEO2": "Entrevista Ing. José Palacios",
+        "BODY-VIDEO2": "Especialista Eléctrica, Electrónica y Comunicaciones. Desarrollador de Tecnología. Quién nos habló de “Beneficios del IOT para las Soluciones de Seguridad”. ✓La importancia de las Redes LPWAN en las comunicaciones ✓ Redes LPWAN y sus aplicaciones en proyectos de Redes y VideoVigilancia.",
+
+        "TITLE-VIDEO3": "Hoy en la Seguridad",
+        "BODY-VIDEO3": "Tecnologías LPWAN en las Centrales de Monitoreo y el Sector Financiero por José Palacios."
     }
 
 

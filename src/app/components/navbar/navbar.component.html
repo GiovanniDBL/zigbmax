@@ -34,27 +34,27 @@
 
                                     <li><a class="dropdown-item" routerLink='ATMSENSE-SIGFOX' href="#">AMTsense Sigfox</a></li>
                                     <li><a class="dropdown-item" routerLink='ATMSENSE-SLAVE' href="#">ATMsense Slave </a></li>
-                                    <li><a class="dropdown-item" href="#">VAULTsense Sigfox</a></li>
-                                    <li><a class="dropdown-item" href="#">DROPsafe Sigfox</a></li>
+                                    <li><a class="dropdown-item" routerLink='VAULTSENSE-SIGFOX' href="#">VAULTsense Sigfox</a></li>
+                                    <li><a class="dropdown-item" routerLink='DROPSAFE-SIGFOX' href="#">DROPsafe Sigfox</a></li>
                                 </ul>
                             </li>
                             <!-- TODO Sensores LPWAN para cadena frio -->
                             <li class="dropdown-submenu dropstart">
                                 <a href="#" class="dropdown-item dropdown-toggle" routerLink='LPWAN Cadena Frio' href="#">{{"DROPDOWN.COLD" | translate}}</a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">TEMPsense I Sigbfox</a></li>
+                                    <li><a class="dropdown-item" routerLink='TEMPSENSE I SIGBFOX' href="#">TEMPsense I Sigbfox</a></li>
                                 </ul>
                             </li>
                             <!-- TODO Sensores Para mantenimiento predictivo -->
                             <li class="dropdown-submenu dropstart">
                                 <a href="#" class="dropdown-item dropdown-toggle" routerLink='Mantenimiento Predictivo' href="#">{{"DROPDOWN.PREDICTIVE" | translate}}</a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Sensor para motores de inducción corriente alterna</a></li>
+                                    <li><a class="dropdown-item" routerLink='CORRIENTE ALTERNA' href="#">{{"DROPDOWN-CHILD.PREDICTIVE-TITLE1" | translate}}</a></li>
                                     <li>
-                                        <a class="dropdown-item" href="#">Sensor para Bombas de Agua y Aguas residuales</a>
+                                        <a class="dropdown-item" routerLink='AGUAS RESIDUALES' href="#">{{"DROPDOWN-CHILD.PREDICTIVE-TITLE2" | translate}}</a>
                                     </li>
                                     <li>
-                                        <a class="dropdown-item" href="#">Sensor para Bandas de Rondamientos</a>
+                                        <a class="dropdown-item" routerLink='BANDAS DE RONDAMIENTOS' href="#">{{"DROPDOWN-CHILD.PREDICTIVE-TITLE3" | translate}}</a>
                                     </li>
                                 </ul>
                             </li>
@@ -63,9 +63,9 @@
                             <li class="dropdown-submenu dropstart">
                                 <a href="#" class="dropdown-item dropdown-toggle" routerLink='Monitoreo de Infraestructuras' href="#">{{"DROPDOWN.INFRASTRUCTURES" | translate}}</a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Monitores de estructuras de concreto</a></li>
-                                    <li><a class="dropdown-item" href="#">Monitores de estructuras metálicas</a></li>
-                                    <li><a class="dropdown-item" href="#">Monitores de puentes viales</a></li>
+                                    <li><a class="dropdown-item" routerLink='MONITORES DE ESTRUCTURAS DE CONCRETO' href="#">{{"DROPDOWN-CHILD.INFRASTRUCTURES-TITLE1" | translate}}</a></li>
+                                    <li><a class="dropdown-item" routerLink='MONITORES DE ESTRUCTURAS METALICAS' href="#">{{"DROPDOWN-CHILD.INFRASTRUCTURES-TITLE2" | translate}}</a></li>
+                                    <li><a class="dropdown-item" routerLink='MONITORES DE PUENTES VIALES' href="#">{{"DROPDOWN-CHILD.INFRASTRUCTURES-TITLE3" | translate}}</a></li>
                                 </ul>
                             </li>
 
@@ -113,11 +113,19 @@
                     </li>
 
 
-                    <select class="form-select" aria-label="Default select example" #langSelect (change)="changeLang(langSelect.value)">
-            <option *ngFor="let lang of langs" [value]="lang">
-                {{lang}}
-            </option>
-          </select>
+
+
+
+
+
+
+
+                    <select class="form-select select-language" aria-label="Default select example" #langSelect (change)="changeLang(langSelect.value)">
+                        <!-- <option selected>Language</option> -->
+        <option *ngFor="let lang of langs" [value]="lang">
+            {{lang}}
+        </option>
+      </select>
 
 
                     <!-- <li class="nav-item" (click)="toSecurity()">

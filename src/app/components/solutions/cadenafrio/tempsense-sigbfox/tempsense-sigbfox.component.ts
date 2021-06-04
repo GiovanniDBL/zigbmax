@@ -4,13 +4,12 @@ import Swal from 'sweetalert2';
 import { HttpClient } from '@angular/common/http';
 import { MessageService } from '../../../../services/message.service';
 
-
 @Component({
-  selector: 'app-atm-sense-slave',
-  templateUrl: './atm-sense-slave.component.html',
-  styleUrls: ['./atm-sense-slave.component.css']
+  selector: 'app-tempsense-sigbfox',
+  templateUrl: './tempsense-sigbfox.component.html',
+  styleUrls: ['./tempsense-sigbfox.component.css']
 })
-export class AtmSenseSlaveComponent implements OnInit {
+export class TempsenseSigbfoxComponent implements OnInit {
 
   protected aFormGroup: FormGroup | undefined;
   recaptcha = new FormControl('');
@@ -54,5 +53,4 @@ export class AtmSenseSlaveComponent implements OnInit {
           script.src = 'https://www.google.com/recaptcha/api.js';
           this._renderer.appendChild(document.body, script);
         }
-
 }

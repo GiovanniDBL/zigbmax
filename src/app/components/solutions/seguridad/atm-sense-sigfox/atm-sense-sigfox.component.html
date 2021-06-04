@@ -1,4 +1,4 @@
-<div class="container card-solutions-ATMsense" [ngsRevealSet]="{  reset:true, duration:2000, origin:'top', distance:'300px'}" [ngsSelector]="'.card'">
+<div id="soluciones" class="container card-solutions-ATMsense" [ngsRevealSet]="{  reset:true, duration:2000, origin:'top', distance:'300px'}" [ngsSelector]="'.card'">
     <div class="row">
         <div class="col-sm-6">
             <div class="card">
@@ -12,11 +12,73 @@
             <div class="card">
                 <div class="card-body">
                     <h5 class="card-title">ATMsense LPWAN</h5>
-                    <p class="card-text">ATMsense Sensor Inteligente Wireless Sigfox Para protección de Cajeros Automáticos.El ATMsense no necesita del panel de alarma paraComunicarse a la central de monitoreo.Características generales:Sensor con analíticos de temperatura,
-                        Vibración, detección de Inclinación, detección de gases explosivos,1 Zona de alarma supervisada, 1 Zona de Keyswitch para Armado/desarmado y cuentaCon la tecnologías MagneticSafe.</p>
+                    <p class="card-text">{{"LPWAN-SENSORES-FOR-SECURITY.AMTSENSE-SIGFOX-BODY" | translate}}</p>
 
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+<section>
+
+</section>
+
+
+<!-- *FORMULARIO -->
+<section id="contact" class="contenido-sections Formulario card-transition ">
+    <div class="container">
+        <div class="row">
+
+            <div class="col">
+
+                <h1>{{ "FORM.TITLE1" | translate }}</h1>
+                <h2>{{ "FORM.TITLE2" | translate }}</h2>
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+                        <div class="modal-body">
+                            <form (ngSubmit)="contactForm(form)" #form="ngForm" method="post" onsubmit="return submitUserForm();">
+                                <div class="form-floating mb-3">
+                                    <input type="text" class="form-control" name="firstname" ngModel required minlength="5" placeholder="name@example.com">
+                                    <label class="text-muted">{{ "FORM.FIRSTNAME" | translate }}</label>
+                                </div>
+                                <div class="form-floating mb-3">
+                                    <input type="text" class="form-control" name="lastname" ngModel required minlength="5" placeholder="name@example.com">
+                                    <label class="text-muted">{{ "FORM.LASTNAME" | translate }}</label>
+                                </div>
+                                <div class="form-floating mb-3">
+                                    <input type="email" class="form-control" email name="email" ngModel required minlength="5" placeholder="name@example.com">
+                                    <label class="text-muted">{{ "FORM.EMAIL" | translate }}</label>
+                                </div>
+                                <div class="form-floating mb-3">
+                                    <input type="tel" class="form-control" name="phone" ngModel required minlength="5" placeholder="name@example.com">
+                                    <label class="text-muted">{{ "FORM.PHONE" | translate }}</label>
+                                </div>
+                                <div class="form-floating">
+                                    <textarea class="form-control" name="message" ngModel required minlength="5" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                                    <label for="floatingTextarea" class="text-muted">{{ "FORM.MESSAGE" | translate }}</label>
+
+
+                                    <div class="g-recaptcha" style="color:cornsilk;" data-sitekey="6LdKUgEbAAAAAA1VZgWctCI7GO9XT9gYUp3sOno0" data-callback="verifyCaptcha">
+                                        Favor de resolver el reCAPTCHA, en caso de que no aparezca presione el botón de recargar.
+                                    </div>
+
+
+
+                                    <div id="g-recaptcha-error "></div>
+                                    <div class="modal-footer d-flex justify-content-center ">
+                                        <button type="submit " id="btn1" name="submit" value="submit" disabled class="btn btn-lg ">{{ "FORM.BUTTON" | translate }}</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</section>

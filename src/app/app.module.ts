@@ -32,6 +32,15 @@ import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 
 import { AppComponent } from './app.component';
+import { VaultsenseSigfoxComponent } from './components/solutions/seguridad/vaultsense-sigfox/vaultsense-sigfox.component';
+import { DropsafeSigfoxComponent } from './components/solutions/seguridad/dropsafe-sigfox/dropsafe-sigfox.component';
+import { TempsenseSigbfoxComponent } from './components/solutions/cadenafrio/tempsense-sigbfox/tempsense-sigbfox.component';
+import { CorrienteAlternaComponent } from './components/solutions/mantopredictivo/corriente-alterna/corriente-alterna.component';
+import { AguasResidualesComponent } from './components/solutions/mantopredictivo/aguas-residuales/aguas-residuales.component';
+import { RondamientosComponent } from './components/solutions/mantopredictivo/rondamientos/rondamientos.component';
+import { ConcretoComponent } from './components/solutions/infraestructuras/concreto/concreto.component';
+import { MetalicasComponent } from './components/solutions/infraestructuras/metalicas/metalicas.component';
+import { PuentesVialesComponent } from './components/solutions/infraestructuras/puentes-viales/puentes-viales.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -54,6 +63,15 @@ export function HttpLoaderFactory(http: HttpClient) {
     AtmSenseSlaveComponent,
     EventosComponent,
     VideosComponent,
+    VaultsenseSigfoxComponent,
+    DropsafeSigfoxComponent,
+    TempsenseSigbfoxComponent,
+    CorrienteAlternaComponent,
+    AguasResidualesComponent,
+    RondamientosComponent,
+    ConcretoComponent,
+    MetalicasComponent,
+    PuentesVialesComponent,
 
 
   ],

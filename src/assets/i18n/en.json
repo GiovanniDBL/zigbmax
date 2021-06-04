@@ -14,6 +14,16 @@
         "PREDICTIVE": "sensors for predictive maintenance ",
         "INFRASTRUCTURES": "sensors for infrastructure monitoring "
     },
+    "DROPDOWN-CHILD": {
+        "PREDICTIVE-TITLE1": "Sensor for alternating current induction motors",
+        "PREDICTIVE-TITLE2": "Sensor for Water and Wastewater Pumps",
+        "PREDICTIVE-TITLE3": "Bearing Belt Sensor",
+
+        "INFRASTRUCTURES-TITLE1": "Monitors of concrete structures",
+        "INFRASTRUCTURES-TITLE2": "Monitors of metallic structures",
+        "INFRASTRUCTURES-TITLE3": "Road bridge monitors"
+
+    },
     "HOME": {
         "TITLE": "Today's security with tomorrow's technology"
     },
@@ -76,8 +86,26 @@
         "BUTTON": "SEND MESSAGE"
     },
     "SOLUTIONS": {
-        "VIDEO-TITLE": "LPWAN SENSORS FOR SECURITY"
-    }
+        "VIDEO-SECURITY-TITLE": "LPWAN SENSORS FOR SECURITY",
+        "VIDEO-COLDCHAIN-TITLE": "LPWAN SENSORS FOR COLD CHAIN",
+        "VIDEO-PREDICTIVE-TITLE": "SENSORS FOR PREDICTIVE MAINTENANCE",
+        "VIDEO-INFRAESTRUCTURE-TITLE": "SENSORS FOR INFRASTRUCTURE MONITORING"
+    },
+    "LPWAN-SENSORES-FOR-SECURITY": {
+        "AMTSENSE-SIGFOX-BODY": "ATMsense Wireless Sigfox Smart Sensor For protection of ATMs The ATMsense does not need an alarm panel to communicate to the central monitoring station.General characteristics: Sensor with temperature analytics, Vibration, Inclination detection, detection of explosive gases, 1 Alarm Zone supervised, 1 Keyswitch Zone for Arming / Disarming and has MagneticSafe technologies.",
+        "ATMSENSE-SLAVE-BODY": "The ATMsense-Slave is compatible with all alarm systems on the market. For protection of ATMs. General characteristics: Dual temperature sensor, Vibration, Tilt detection, detection of explosive gases, 2 supervised alarm zones and has MagneticSafe technologies."
+    },
+    "NOTICIAS": {
+        "TITLE": "noticias",
 
+        "TITLE-VIDEO1": "What did I do in times of a pandemic?",
+        "BODY-VIDEO1": "2019 I was writing the book “Chronicle of an announced death of the monitoring centers” but I totally lost concentration and could not continue with the book, but the great tragedies force us to be more creative to solve the big problems, in my own way. develop a new smart sensor technology, to solve some problems of the financial, industrial and food sector.",
+
+        "TITLE-VIDEO2": "Entrevista Ing. José Palacios",
+        "BODY-VIDEO2": "Electrical, Electronics and Communications Specialist. Technology Developer. Who told us about “Benefits of IOT for Security Solutions”. ✓ The importance of LPWAN Networks in communications. ✓ LPWAN Networks and their applications in Network and Video Surveillance projects.",
+
+        "TITLE-VIDEO3": "Today in Security",
+        "BODY-VIDEO3": "LPWAN Technologies in Monitoring Centers and the Financial Sector by José Palacios."
+    }
 
 }

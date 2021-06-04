@@ -4,13 +4,12 @@ import Swal from 'sweetalert2';
 import { HttpClient } from '@angular/common/http';
 import { MessageService } from '../../../../services/message.service';
 
-
 @Component({
-  selector: 'app-atm-sense-slave',
-  templateUrl: './atm-sense-slave.component.html',
-  styleUrls: ['./atm-sense-slave.component.css']
+  selector: 'app-dropsafe-sigfox',
+  templateUrl: './dropsafe-sigfox.component.html',
+  styleUrls: ['./dropsafe-sigfox.component.css']
 })
-export class AtmSenseSlaveComponent implements OnInit {
+export class DropsafeSigfoxComponent implements OnInit {
 
   protected aFormGroup: FormGroup | undefined;
   recaptcha = new FormControl('');
