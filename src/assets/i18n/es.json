@@ -94,13 +94,13 @@
     },
     "LPWAN-SENSORES-FOR-SECURITY": {
         "AMTSENSE-SIGFOX-BODY": "ATMsense Sensor Inteligente Wireless Sigfox Para protección de Cajeros Automáticos.El ATMsense no necesita del panel de alarma paraComunicarse a la central de monitoreo.Características generales:Sensor con analíticos de temperatura, Vibración, detección de Inclinación, detección de gases explosivos,1 Zona de alarma supervisada, 1 Zona de Keyswitch para Armado/desarmado y cuentaCon la tecnologías MagneticSafe.",
-        "ATMSENSE-SLAVE-BODY": "El ATMsense-Slave es compatible con todos losSistemas de alarmas del mercado. Para protección de Cajeros Automáticos.Características generales:Sensor dual de temperatura, Vibración, detección de Inclinación, detección de gases explosivos,2 Zonas de alarma supervisada y cuentaCon la tecnologías MagneticSafe."
+        "ATMSENSE-SLAVE-BODY": "El ATMsense-Slave es compatible con todos los sistemas de alarmas del mercado. Para protección de Cajeros Automáticos.Características generales:Sensor dual de temperatura, Vibración, detección de Inclinación, detección de gases explosivos,2 Zonas de alarma supervisada y cuentaCon la tecnologías MagneticSafe."
     },
     "NOTICIAS": {
         "TITLE": "noticias",
 
         "TITLE-VIDEO1": "¿Qué hice en tiempo de pandemia?",
-        "BODY-VIDEO1": "2019 estaba escribiendo el libro “Crónica de una muerte anunciada de las centrales de Monitoreo” pero perdí la concentración totalmente y no pude continuar con el libro, pero las grandes tragedias nos obligan a ser mas creativos para resolver los grandes problemas, a mi medio por desarrollar una nueva tecnología de sensores inteligente, para resolver algunos problemas del sector financiero, Industrial y alimenticio.",
+        "BODY-VIDEO1": "2019 estaba escribiendo el libro “Crónica de una muerte anunciada de las centrales de Monitoreo” pero perdí la concentración totalmente y no pude continuar con el libro, pero las grandes tragedias nos obligan a ser mas creativos para resolver los grandes problemas, a mi me dio por desarrollar una nueva tecnología de sensores inteligente, para resolver algunos problemas del sector financiero, Industrial y alimenticio.",
 
         "TITLE-VIDEO2": "Entrevista Ing. José Palacios",
         "BODY-VIDEO2": "Especialista Eléctrica, Electrónica y Comunicaciones. Desarrollador de Tecnología. Quién nos habló de “Beneficios del IOT para las Soluciones de Seguridad”. ✓La importancia de las Redes LPWAN en las comunicaciones ✓ Redes LPWAN y sus aplicaciones en proyectos de Redes y VideoVigilancia.",

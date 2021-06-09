@@ -1151,3 +1151,13 @@ ul.col3 li {
         opacity: 0;
     }
 }
+
+.video-instagram {
+    height: 290px !important;
+    /* height: 240px !important; */
+    width: 100% !important;
+    /* width: 520px !important; */
+    /* display: block;
+    margin: 0 auto; */
+    background: #000000;
+}
