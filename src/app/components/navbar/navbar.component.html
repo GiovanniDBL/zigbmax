@@ -120,11 +120,11 @@
 
 
 
-                    <select class="form-select select-language" aria-label="Default select example" #langSelect (change)="changeLang(langSelect.value)">
+                    <select class="form-select select-language " aria-label="Default select example" #langSelect (change)="changeLang(langSelect.value)">
                         <!-- <option selected>Language</option> -->
         <option *ngFor="let lang of langs" [value]="lang">
             {{lang}}
-        </option>
+        </option> 
       </select>
 
 

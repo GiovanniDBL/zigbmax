@@ -123,6 +123,19 @@ body {
     background-color: transparent !important;
     border: 0 !important;
     text-transform: uppercase;
+    color: #f1c40f !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+    background-image: url(assets/img/canvas5.png) !important;
+}
+
+.select-language:hover {
+    cursor: pointer;
+    background-color: #f9f9fa33 !important;
+}
+
+.select-language option {
+    /* background-color: #000000 !important; */
 }
 
 

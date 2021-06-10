@@ -27,6 +27,15 @@
     "HOME": {
         "TITLE": "Today's security with tomorrow's technology"
     },
+    "PAPALBRAS-HOME": {
+        "CRITICAL-MONITORING": "CRITICAL MONITORING ",
+        "VAULT-PROTECTION": "VAULT PROTECTION",
+        "0GNETWORKS": "0G NETWORKS",
+        "0GNET": "0G NET",
+        "PROTECTIONATMS": "PROTECTION FOR ATMs",
+        "INTELLIGENT-SENSORS": "INTELLIGENT SENSORS",
+        "PREDICTIVE-MAINTENANCE": "PREDICTIVE MAINTENANCE"
+    },
     "ARTIFICIAL-INTELLIGENCE": {
         "TITLE": "artificial intelligence",
         "BODY": "Every one of our Security Solutions are built on Next-Gen AI. It's core is precisely built on Artificial Intelligence with capabilities never before seen."

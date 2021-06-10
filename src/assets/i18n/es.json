@@ -28,6 +28,15 @@
     "HOME": {
         "TITLE": "La seguridad de hoy con la tecnología del mañana"
     },
+    "PAPALBRAS-HOME": {
+        "CRITICAL-MONITORING": "MONITOREO CRÍTICO",
+        "VAULT-PROTECTION": "PROTECCIÓN DE BÓVEDAS",
+        "0GNETWORKS": "REDES 0G",
+        "0GNET": "RED 06",
+        "PROTECTIONATMS": "PROTECCIÓN PARA ATMs",
+        "INTELLIGENT-SENSORS": "SENSORES INTELIGENTES",
+        "PREDICTIVE-MAINTENANCE": "MANTENIMIENTO PREDICTIVO"
+    },
     "ARTIFICIAL-INTELLIGENCE": {
         "TITLE": "inteligencia artificial",
         "BODY": "Cada una de nuestras soluciones de seguridad se basa en IA de próxima generación. Su núcleo se basa precisamente en inteligencia artificial con capacidades nunca antes vistas."
